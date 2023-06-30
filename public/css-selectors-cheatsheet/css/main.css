@@ -1,0 +1,527 @@
+/* ============================================================================
+   MAIN STYLES
+   ========================================================================= */
+/**
+ * Settings.
+ *
+ * Design tokens.
+ */
+/* ============================================================================
+   BASE (GLOBAL)
+   ========================================================================= */
+/**
+ * Base settings.
+ */
+/* ============================================================================
+   COLOUR (GLOBAL)
+   ========================================================================= */
+/**
+ * Black
+ */
+/**
+ * White
+ */
+/* ============================================================================
+   TYPOGRAPHY (GLOBAL)
+   ========================================================================= */
+/**
+ * Font families.
+ */
+/**
+  * Font sizes.
+  */
+/**
+  * Font weights.
+  */
+/**
+ * Tools.
+ *
+ * Globally used functions, placeholders and mixins.
+ *
+ * NOTE: it is important not to output any CSS in the first 2 layers.
+ */
+/* ============================================================================
+   FUNCTIONS (GLOBAL)
+   ========================================================================= */
+/**
+ * Convert a pixel value to REM units.
+ */
+/* ============================================================================
+   PLACEHOLDERS (GLOBAL)
+   ========================================================================= */
+/**
+ * Prevent an element from being displayed.
+ */
+/**
+ * Restore to view
+ */
+/**
+ * Hide from both screenreaders and browsers
+ */
+/**
+ * Hide for fadeout
+ */
+/**
+ * Show for fadein
+ */
+.woocommerce-account .woocommerce-Input--text,
+.woocommerce-account .woocommerce-Input--email,
+.woocommerce-account .woocommerce-Input--password {
+  background: rgba(255, 255, 255, 0.12);
+  border: 0;
+  border-radius: 0.25rem;
+  color: #fff;
+  height: 2.25rem;
+  padding: 0 0.625rem; }
+
+.woocommerce-account button.woocommerce-Button, .s-login .woocommerce-form-login__submit {
+  background-color: #ffae00;
+  border-radius: 0.25rem;
+  color: #000;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.9375rem 1rem;
+  transition: background-color 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+  .woocommerce-account button.woocommerce-Button:hover, .s-login .woocommerce-form-login__submit:hover {
+    background-color: #ffd456;
+    color: #000; }
+
+/**
+ * Buttons
+ */
+.c-button--white {
+  background-color: #fff; }
+
+.c-hero-button {
+  background-color: #ffae00 !important;
+  color: #000 !important;
+  font-weight: 500 !important;
+  padding: 1rem 1.25rem !important; }
+
+/**
+ * Page
+ */
+.o-page.is-coupon {
+  padding-bottom: 6.25rem; }
+
+/**
+  * Styles for Checkout page
+  */
+.woocommerce-checkout {
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: "Roboto", sans-serif;
+  margin: 0; }
+  .woocommerce-checkout .c-logo--raw,
+  .woocommerce-checkout .c-logo--raw a {
+    color: #ffae00;
+    font-size: 2.5rem;
+    margin: 1.25rem auto 3.125rem;
+    max-width: 43.75rem;
+    text-decoration: none; }
+  .woocommerce-checkout .woocommerce {
+    color: rgba(255, 255, 255, 0.87);
+    max-width: 700px;
+    margin: 0 auto; }
+  .woocommerce-checkout .content-container {
+    margin: 0 1rem; }
+  .woocommerce-checkout h1 {
+    font-size: 2.375rem;
+    letter-spacing: 0.625rem;
+    text-align: center;
+    text-transform: uppercase; }
+  .woocommerce-checkout h3,
+  .woocommerce-checkout .wc_payment_method label {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase; }
+  .woocommerce-checkout .input-text {
+    background: rgba(255, 255, 255, 0.12);
+    border: 0;
+    border-radius: 0.25rem;
+    color: #fff;
+    height: 2.25rem;
+    padding: 0 0.625rem; }
+  .woocommerce-checkout textarea {
+    font-family: "Roboto", sans-serif;
+    padding: 0.625rem 1.25rem !important; }
+  .woocommerce-checkout .woocommerce-form-coupon,
+  .woocommerce-checkout .woocommerce-form-coupon-toggle {
+    display: none; }
+  .woocommerce-checkout .woocommerce-billing-fields {
+    margin-top: 1.875rem; }
+  .woocommerce-checkout .woocommerce-billing-fields__field-wrapper,
+  .woocommerce-checkout .woocommerce-additional-fields__field-wrapper,
+  .woocommerce-checkout .woocommerce-checkout-review-order-table,
+  .woocommerce-checkout #payment div.payment_box {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 0 !important;
+    display: black !important;
+    padding: 0.625rem 1.25rem !important; }
+  .woocommerce-checkout .woocommerce form .form-row {
+    margin: 0 0 0.625rem; }
+  .woocommerce-checkout .woocommerce form .form-row .required {
+    color: #ffae00; }
+  .woocommerce-checkout .woocommerce-additional-fields {
+    margin-top: 2.5rem; }
+  .woocommerce-checkout #order_review_heading {
+    margin-top: 2.5rem; }
+  .woocommerce-checkout .woocommerce-checkout-review-order table.shop_table {
+    border-spacing: 0; }
+  .woocommerce-checkout .woocommerce-checkout-review-order table.shop_table tbody th,
+  .woocommerce-checkout .woocommerce-checkout-review-order table.shop_table tfoot td,
+  .woocommerce-checkout .woocommerce-checkout-review-order table.shop_table tfoot th {
+    border-top: 1px solid rgba(255, 255, 255, 0.3); }
+  .woocommerce-checkout .product-name,
+  .woocommerce-checkout .product-total,
+  .woocommerce-checkout .cart-subtotal th,
+  .woocommerce-checkout .order-total th {
+    text-transform: uppercase; }
+  .woocommerce-checkout .product-name {
+    width: 100%; }
+  .woocommerce-checkout .order-total {
+    font-size: 1.25rem; }
+  .woocommerce-checkout #payment ul.payment_methods {
+    border-bottom: 0;
+    padding: 0; }
+  .woocommerce-checkout .woocommerce-checkout-payment {
+    background-color: transparent !important; }
+  .woocommerce-checkout #payment div.payment_box::before {
+    display: none; }
+  .woocommerce-checkout #payment div.payment_box {
+    color: rgba(255, 255, 255, 0.87); }
+  .woocommerce-checkout #payment div.form-row {
+    padding: 0; }
+  .woocommerce-checkout .wc-payment-form > div {
+    float: none !important;
+    width: 100%; }
+  .woocommerce-checkout .wc-payment-form label {
+    font-size: 1rem; }
+  .woocommerce-checkout .woocommerce-SavedPaymentMethods-saveNew label {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none; }
+  .woocommerce-checkout .woocommerce-privacy-policy-link {
+    color: #ffae00; }
+    .woocommerce-checkout .woocommerce-privacy-policy-link:hover {
+      text-decoration: none; }
+  .woocommerce-checkout .place-order {
+    text-align: center; }
+  .woocommerce-checkout .woocommerce-terms-and-conditions-wrapper {
+    text-align: left !important; }
+  .woocommerce-checkout #payment #place_order {
+    background-color: #ffae00;
+    border-radius: 32px;
+    color: #000;
+    float: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 3.125rem;
+    margin-top: 20px;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    width: auto; }
+  .woocommerce-checkout .col2-set .col-1,
+  .woocommerce-checkout .col2-set .col-2 {
+    float: none;
+    width: 100%; }
+  .woocommerce-checkout .showlogin {
+    color: #000 !important; }
+
+/**
+ * Styles for Membership - Profile (WooCommerce Account Details page)
+ */
+.woocommerce-account {
+  color: #fff; }
+  .woocommerce-account .o-page {
+    margin-top: 5rem; }
+  .woocommerce-account .woocommerce::before {
+    display: none; }
+  .woocommerce-account .c-heading {
+    margin: 3.125rem 0;
+    text-align: center; }
+  .woocommerce-account .content-container > h1 {
+    display: none; }
+  .woocommerce-account #page-wrapper .o-container {
+    margin: 0 auto; }
+  .woocommerce-account .woocommerce-MyAccount-content {
+    float: none;
+    margin-top: 0;
+    width: auto; }
+  .woocommerce-account .woocommerce-MyAccount-navigation {
+    display: none; }
+  .woocommerce-account .woocommerce-EditAccountForm {
+    color: rgba(255, 255, 255, 0.87);
+    margin-top: 1.875rem; }
+  .woocommerce-account #account_display_name + span {
+    display: none; }
+  .woocommerce-account fieldset {
+    margin-top: 1.25rem; }
+  .woocommerce-account button.woocommerce-Button {
+    display: block;
+    margin: 1.875rem auto; }
+  .woocommerce-account .c-dashboard {
+    color: #fff;
+    margin: 3.125rem 0;
+    text-align: center; }
+    .woocommerce-account .c-dashboard a {
+      color: #fff; }
+  .woocommerce-account .c-tos {
+    margin-top: 0 !important; }
+
+.s-login {
+  color: #fff; }
+  .s-login #page-wrapper .o-container {
+    margin: 0 auto;
+    max-width: 26.875rem; }
+  .s-login .c-tos {
+    margin-top: 0 !important; }
+  .s-login .c-logo__wrapper {
+    margin: 3.125rem 0; }
+  .s-login h1 {
+    margin: 3.125rem 0; }
+  .s-login .woocommerce-form {
+    text-align: center; }
+  .s-login label {
+    display: block;
+    margin-bottom: 0.3125rem;
+    text-align: left; }
+  .s-login .input-text {
+    background: rgba(255, 255, 255, 0.12);
+    border: 0;
+    border-radius: 0.25rem;
+    color: #fff;
+    height: 2.25rem;
+    margin-bottom: 0.875rem;
+    padding: 0 0.625rem;
+    width: 100%; }
+  .s-login a {
+    color: #fff; }
+  .s-login .woocommerce-form-login__submit {
+    border: 0;
+    margin: 1.25rem 0;
+    padding: 0.9375rem 1.625rem; }
+  .s-login .c-goto-login {
+    text-align: center;
+    margin: 3.125rem 0; }
+  .s-login .content-container {
+    margin: 0 auto;
+    max-width: 37.5rem; }
+
+/**
+ * Lost password
+ */
+.woocommerce-lost-password .c-logo__wrapper {
+  margin: 3.125rem 0; }
+
+.woocommerce-lost-password .woocommerce-notices-wrapper,
+.woocommerce-lost-password .woocommerce-message {
+  margin-top: 3.125rem; }
+
+.woocommerce-message a {
+  color: #000; }
+
+/**
+ * Login form after logout 
+ */
+.woocommerce-account .c-logo__wrapper {
+  margin: 0 0 3.125rem; }
+
+.woocommerce-account .woocommerce form.login {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Billing
+ */
+.woocommerce-additional-fields {
+  display: none; }
+
+/**
+ * Homepage
+ */
+.home.cart-open .c-video,
+.s-frontend30.cart-open .c-video {
+  z-index: -1; }
+
+.woocommerce-form .lost_password a {
+  color: rgba(255, 255, 255, 0.87); }
+
+.woocommerce-account-fields {
+  margin-top: 1.875rem; }
+
+.woocommerce-account-fields .create-account {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.625rem 1.25rem;
+  position: relative; }
+  .woocommerce-account-fields .create-account::before {
+    content: 'Create new account';
+    font-size: 1.25rem;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0.3125rem;
+    position: absolute;
+    text-transform: uppercase;
+    top: -2.5rem; }
+
+#mailchimp-gdpr-fields {
+  display: none !important; }
+
+.woocommerce-order-received .c-logo--raw {
+  display: none; }
+
+.woocommerce-order-received h1 {
+  display: none; }
+
+.woocommerce-order-received .woocommerce-order {
+  margin: 3.125rem auto 0;
+  width: 43.75rem; }
+
+.woocommerce-order-received .woocommerce-order-overview {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.25rem;
+  font-size: 1.125rem;
+  padding: 0; }
+
+.woocommerce-order-received .woocommerce ul.order_details li {
+  border-right: 0;
+  float: none;
+  margin: 1.875rem; }
+
+.woocommerce-order-received .woocommerce-table--order-details {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.25rem; }
+  .woocommerce-order-received .woocommerce-table--order-details tfoot td {
+    min-width: 7.5rem; }
+
+.woocommerce-order-received .woocommerce-customer-details {
+  margin-top: 3.125rem; }
+  .woocommerce-order-received .woocommerce-customer-details address {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.25rem; }
+
+.woocommerce-order-received .order-again {
+  display: none; }
+
+/**
+ * Footer coupon
+ */
+.c-coupon-footer {
+  align-items: center;
+  background-color: #fe2c55;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  position: fixed;
+  width: 100%;
+  z-index: 100; }
+  .c-coupon-footer.is-hidden {
+    display: none; }
+
+.c-coupon-footer__inner {
+  align-items: center;
+  display: flex;
+  width: 80%; }
+
+.c-coupon-footer__svg {
+  fill: #fff;
+  margin-right: 0.375rem;
+  width: 1rem; }
+
+.c-coupon-footer__countdown {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: auto; }
+
+.c-coupon-footer__date {
+  display: flex;
+  flex-wrap: nowrap; }
+
+.c-coupon-footer__date-inner {
+  min-width: 4.75rem;
+  text-align: center; }
+
+.c-coupon-footer__date-figure {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0 1.5rem; }
+  .c-coupon-footer__date-inner:last-child .c-coupon-footer__date-figure {
+    border: none; }
+
+.c-coupon-footer__date-text {
+  font-size: 0.875rem;
+  text-transform: uppercase; }
+
+.c-coupon-footer__button {
+  color: #fe2c55;
+  margin-left: 1.25rem; }
+
+.woocommerce-error a,
+.s-membership__content .woocommerce-error a {
+  color: #000; }
+
+/**
+ * Checkout: login
+ */
+.page-template-page-checkout .woocommerce form.login,
+.s-membership.woocommerce-checkout form.login {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: none;
+  margin-top: 6.25rem;
+  padding: 0.9375rem 1.25rem;
+  position: relative; }
+  .page-template-page-checkout .woocommerce form.login::before,
+  .s-membership.woocommerce-checkout form.login::before {
+    content: 'Login';
+    font-size: 1.25rem;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0.3125rem;
+    position: absolute;
+    text-transform: uppercase;
+    top: -2.5rem; }
+
+.c-woocommerce-or {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1.875rem;
+  text-align: center; }
+
+.c-me__photo--sqare {
+  border-radius: 0.375rem;
+  display: block;
+  margin: 3.125rem auto 0;
+  width: 100%; }
+
+/**
+ * 404
+ */
+.o-narrow-content {
+  margin: 6.25rem auto 0;
+  max-width: 37.5rem;
+  text-align: center;
+  width: 100%; }
+
+.c-404-heading {
+  margin: 6.25rem 0 3.125rem; }
+
+.c-404-link {
+  margin: 3.125rem 0; }
+
+.c-404-button {
+  display: inline-flex; }
+
+.c-404-button-svg-wrapper {
+  margin-right: 0.625rem; }
+
+.c-404-button-svg {
+  width: 1rem; }
+
+.s-cs-cheatsheet .fe30::after {
+  content: none !important; }

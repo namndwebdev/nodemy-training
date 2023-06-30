@@ -1,0 +1,2071 @@
+<!DOCTYPE html><html lang="en-US"><head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KZLH8C4');</script>
+<!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="https://frontend30.com/xmlrpc.php">
+
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<script>window._wca = window._wca || [];</script>
+
+	<!-- This site is optimized with the Yoast SEO plugin v16.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>CSS Selectors Cheatsheet - FrontEnd30</title>
+	<link rel="canonical" href="https://frontend30.com/css-selectors-cheatsheet/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="CSS Selectors Cheatsheet - FrontEnd30">
+	<meta property="og:url" content="https://frontend30.com/css-selectors-cheatsheet/">
+	<meta property="og:site_name" content="FrontEnd30">
+	<meta property="article:modified_time" content="2019-02-25T10:39:00+00:00">
+	<meta name="twitter:card" content="summary_large_image">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://frontend30.com/#website","url":"https://frontend30.com/","name":"FrontEnd30","description":"Master 30 frontend skills.","potentialAction":[{"@type":"SearchAction","target":"https://frontend30.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://frontend30.com/css-selectors-cheatsheet/#webpage","url":"https://frontend30.com/css-selectors-cheatsheet/","name":"CSS Selectors Cheatsheet - FrontEnd30","isPartOf":{"@id":"https://frontend30.com/#website"},"datePublished":"2019-02-25T10:38:33+00:00","dateModified":"2019-02-25T10:39:00+00:00","breadcrumb":{"@id":"https://frontend30.com/css-selectors-cheatsheet/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://frontend30.com/css-selectors-cheatsheet/"]}]},{"@type":"BreadcrumbList","@id":"https://frontend30.com/css-selectors-cheatsheet/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://frontend30.com/","url":"https://frontend30.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https://frontend30.com/css-selectors-cheatsheet/#webpage"}}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//stats.wp.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="FrontEnd30 » Feed" href="https://frontend30.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="FrontEnd30 » Comments Feed" href="https://frontend30.com/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/frontend30.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.9"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+<style id="wp-block-library-inline-css" type="text/css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel="stylesheet" id="wc-block-vendors-style-css" href="css/vendors-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="wc-block-style-css" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="cookie-law-info-css" href="css/cookie-law-info-public.css" type="text/css" media="all">
+<link rel="stylesheet" id="cookie-law-info-gdpr-css" href="css/cookie-law-info-gdpr.css" type="text/css" media="all">
+<link rel="stylesheet" id="swpm.common-css" href="css/swpm.common.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-layout-css" href="css/woocommerce-layout.css" type="text/css" media="all">
+<style id="woocommerce-layout-inline-css" type="text/css">
+
+	.infinite-scroll .woocommerce-pagination {
+		display: none;
+	}
+</style>
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="css/woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="css/woocommerce.css" type="text/css" media="all">
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="woosb-frontend-css" href="css/frontend.css" type="text/css" media="all">
+<link rel="stylesheet" id="unicorn-main-style-css" href="css/main.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="unicorn-main-style-2-css" href="css/main.min_2.css" type="text/css" media="all">
+<link rel="stylesheet" id="style-css" href="css/main.css" type="text/css" media="all">
+<link rel="stylesheet" id="fe30-main-style-css" href="css/main.min_1.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="css/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="cookie-law-info-js-extra">
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":["tk_or","tk_r3d","tk_lr","_ga","_gid"],"cookielist":[],"non_necessary_cookies":{"necessary":["__stripe_mid","__stripe_sid"],"functional":["mailchimp_landing_site"],"performance":["swpm_session","YSC"],"analytics":["tk_or","tk_r3d","tk_lr","_ga","_gid","vuid"],"advertisement":["IDE","VISITOR_INFO1_LIVE","test_cookie"],"others":["_gat_UA-124914705-1","m","cookies.js","CONSENT"]},"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","ccpaType":"gdpr","js_blocking":"1","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#FFF","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#fea227","button_1_button_hover":"#cb821f","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#3566bb","button_3_button_hover":"#2a5296","button_3_link_colour":"#fff","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#000","button_4_button_hover":"#000000","button_4_link_colour":"#333333","button_4_as_button":"","button_7_button_colour":"#fea227","button_7_button_hover":"#cb821f","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333333","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https:\/\/frontend30.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/cookie-law-info-public.js" id="cookie-law-info-js"></script>
+<script defer="" type="text/javascript" src="js/s-202326.js" id="woocommerce-analytics-js"></script>
+<link rel="https://api.w.org/" href="https://frontend30.com/wp-json/"><link rel="alternate" type="application/json" href="https://frontend30.com/wp-json/wp/v2/pages/301"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://frontend30.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://frontend30.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.7.9">
+<meta name="generator" content="WooCommerce 5.2.5">
+<link rel="shortlink" href="https://frontend30.com/?p=301">
+<link rel="alternate" type="application/json+oembed" href="https://frontend30.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffrontend30.com%2Fcss-selectors-cheatsheet%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://frontend30.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffrontend30.com%2Fcss-selectors-cheatsheet%2F&amp;format=xml">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/wp-content/uploads/fbrfg/site.webmanifest">
+<link rel="shortcut icon" href="favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/wp-content/uploads/fbrfg/browserconfig.xml">
+<meta name="theme-color" content="#ffffff"><style type="text/css">img#wpstats{display:none}</style>
+			<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+				<script type="text/javascript">
+				var cli_flush_cache = true;
+			</script>
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+  <script src="js/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Roboto:300,400,500,700,900', 'Roboto+Mono:400,500,700']
+      }
+    });
+  </script>
+  <script>
+    !function(a){var b=/iPhone/i,c=/iPod/i,d=/iPad/i,e=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,f=/Android/i,g=/(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,h=/(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,i=/Windows Phone/i,j=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,k=/BlackBerry/i,l=/BB10/i,m=/Opera Mini/i,n=/(CriOS|Chrome)(?=.*\bMobile\b)/i,o=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,p=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),q=function(a,b){return a.test(b)},r=function(a){var r=a||navigator.userAgent,s=r.split("[FBAN");if("undefined"!=typeof s[1]&&(r=s[0]),s=r.split("Twitter"),"undefined"!=typeof s[1]&&(r=s[0]),this.apple={phone:q(b,r),ipod:q(c,r),tablet:!q(b,r)&&q(d,r),device:q(b,r)||q(c,r)||q(d,r)},this.amazon={phone:q(g,r),tablet:!q(g,r)&&q(h,r),device:q(g,r)||q(h,r)},this.android={phone:q(g,r)||q(e,r),tablet:!q(g,r)&&!q(e,r)&&(q(h,r)||q(f,r)),device:q(g,r)||q(h,r)||q(e,r)||q(f,r)},this.windows={phone:q(i,r),tablet:q(j,r),device:q(i,r)||q(j,r)},this.other={blackberry:q(k,r),blackberry10:q(l,r),opera:q(m,r),firefox:q(o,r),chrome:q(n,r),device:q(k,r)||q(l,r)||q(m,r)||q(o,r)||q(n,r)},this.seven_inch=q(p,r),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window)return this},s=function(){var a=new r;return a.Class=r,a};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=r:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=s():"function"==typeof define&&define.amd?define("isMobile",[],a.isMobile=s()):a.isMobile=s()}(this);
+    isMobile.any||document.querySelector('html').classList.add('is-desktop');
+  </script>
+</head>
+
+<body class="s-cs-cheatsheet">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZLH8C4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- toggle -->
+<!-- <div class="toggleWrapper">
+  <input type="checkbox" class="doTheMagic" id="doTheMagic"/>
+  <label for="doTheMagic" class="toggle">
+    <span class="btn"></span>
+  </label>
+</div> -->
+
+<div class="fab-outer">
+	<a class="fab js-cheatsheet-download" target="_black" href="#"><span>download</span><span><img draggable="false" role="img" class="emoji" alt="👇" src="fonts/1f447.svg"></span></a>
+  <a class="fab" target="_black" href="https://medium.com/p/9593bc204e3f"><span>read</span><span><img draggable="false" role="img" class="emoji" alt="📖" src="fonts/1f4d6.svg"></span></a>
+  <a class="fab fe30" target="_black" href="https://frontend30.com/"> 			
+		<span class="fe30-yellow">&lt;</span>
+		<span>FrontEnd30</span>
+		<span class="fe30-yellow">/&gt;</span>
+	</a>
+</div>
+
+<div class="content-outer">
+  <!-- title -->
+  <div class="title heading-title">
+    <div>
+      <h1>CSS</h1> 
+      <h2>selectors</h2>
+      <h2>cheatsheet</h2>
+      <div class="symbol"> #  &gt;  .  ,  *  +  ~  :  { }  ( )  [ ] </div>
+    </div>
+    <div class="copyright-outer">
+        <div class="text-medium copyright">Designed &amp; built by <a target="_black" href="http://nanajeon.com">nana</a></div>
+        <div class="text-medium copyright">Collaborated with <a target="_black" href="https://ryanyu.com/">Ryan Yu</a></div>
+      </div>
+    </div>
+    
+    <!-- Subscription form -->
+    <div class="c-flip-box c-flip-box--popup-bottom-right js-flip-box">
+      <div class="c-flip-box__outer">
+        <div class="c-flip-box__inner">
+          <div class="c-flip-box__front">
+            <h2 class="c-flip-box__title">FREE CSS Selectors Cheat sheet</h2>
+            <div><img class="c-flip-box__img" src="images/css-selectors-cheatsheet-cover.png" alt="CSS Selectors Cheatsheet"></div>
+            <p>Download PDF for CSS Selectors Cheatsheet. It's free now 🎉</p>
+            <form id="mailchimp" class="c-form--mailchimp">
+              <input class="c-flip-box__input" type="text" name="fname" placeholder="First name">
+              <input class="c-flip-box__input" type="email" name="email" placeholder="Email" required="">
+              <input type="hidden" name="tags" value="css-selectors">
+              <button class="js-mailchimp-form-btn c-form-button c-button c-button--medium c-button--border c-button--blue">
+                <span class="c-spinner"></span>
+                <span class="c-button__text">DOWNLOAD</span>
+              </button>
+            </form>
+            <p class="c-flip-box__small"><small>After signing up, you will also receive frontend tips, upcoming posts and early access to special bonus. We will not sell or distribute your email address to any third party at any time. View our <a class="c-flip-box__link" href="https://frontend30.com/privacy-policy/" target="_blank">Privacy Policy</a>.</small></p>
+          </div>
+          <div class="c-flip-box__back c-option__message"></div>
+        </div>
+        <button class="c-flip-box__close js-flip-box-close">
+          <svg class="c-flip-box__close-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <canvas id="confetti" class="c-confetti"></canvas>
+    
+    <!-- Type selector -->
+    
+    <div class="content">
+      <p><strong>Type</strong> Selector: <strong>a</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle" data-selected="true">
+          a
+        </div>
+        <div role="button" class="circle">
+          b
+        </div>
+        <div role="button" class="circle">
+          c
+        </div>
+      </div>
+    </div>
+    
+    <!-- Type selector close-->
+    
+      
+    <div class="border"></div>
+    
+    
+    <!-- ID selector -->
+    
+    <div class="content"> 
+      <p><strong>ID</strong> Selector: <strong>#a</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle" data-selected="true">
+          <div>#a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>#b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>#c</div>
+        </div>
+      </div>
+      <p class="text-medium">* <strong>ID</strong> is not recommended as a selector</p>
+    </div>
+    
+    <!-- ID selector close -->
+    
+    
+    <div class="border"></div>
+    
+    
+    <!-- Child selector -->
+    
+    <div class="content"> 
+      <p><strong>Child</strong> Selector: <strong>a &gt; b</strong> { }</p>
+      
+      <div>	<!-- Level 2 + 4 circle -->
+        <div class="level1">   <!-- Level 1  -->
+          <div class="circle-outer">
+            <div role="button" class="circle level-parent1">
+              <div>a</div>
+            </div>
+          </div>
+    
+          <div class="bar">
+            <div class="level-parent1-bar-center"></div>
+            <div class="level-parent1-bar-horizontal"></div>
+            <div class="level-parent1-bar1"></div>
+            <div class="level-parent1-bar2"></div>
+          </div>
+    
+        <div class="circle-outer">
+          <div role="button" class="circle" data-selected="true">
+            <div>b</div>
+          </div>
+          <div role="button" class="circle levelCircle">
+            <div>c</div>
+          </div>
+        </div>
+      </div>   <!-- level 1 close-->
+      
+      
+      <div class="flex-row">
+        <div class="leve2-1">  <!-- level 2-1-->
+          <div class="bar">  
+            <div class="circle2-bar-center"></div>
+            <div class="circle2-bar-horizontal"></div>
+            <div class="circle2-bar1"></div>
+            <div class="circle2-bar2"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle">
+              <div>a</div>
+            </div>
+            <div role="button" class="circle">
+              <div>b</div>
+            </div>
+          </div>
+        </div>  <!-- level 2-1 close-->
+    
+    
+        <div class="leve2-2">
+          <div class="bar">  <!-- level 2-2-->
+            <div class="circle2-bar-center"></div>
+            <div class="circle2-bar-horizontal"></div>
+            <div class="circle2-bar1"></div>
+            <div class="circle2-bar2"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle">
+              <div>a</div>
+            </div>
+            <div role="button" class="circle">
+              <div>b</div>
+            </div>
+          </div>
+        </div> <!-- level 2-2 close-->
+      </div> <!-- level 2 close-->
+      
+    </div>	<!-- 2 Level + 4circle close -->
+    
+      
+        
+    </div> <!-- Child selector close -->
+    
+    
+    
+    
+    
+    <div class="border"></div>
+    
+    
+    
+    
+    
+    
+    
+    <!-- Descendant selector -->
+    
+    <div class="content"> 
+      <p><strong>Descendant</strong> Selector: <strong>a  b</strong> { }</p>
+      
+      <div>	<!-- Level 2 + 4 circle -->
+        <div class="level1">   <!-- Level 1  -->
+          <div class="circle-outer">
+            <div role="button" class="circle level-parent1">
+              <div>a</div>
+            </div>
+          </div>
+    
+          <div class="bar">
+            <div class="level-parent1-bar-center"></div>
+            <div class="level-parent1-bar-horizontal"></div>
+            <div class="level-parent1-bar1"></div>
+            <div class="level-parent1-bar2"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle" data-selected="true">
+              <div>b</div>
+            </div>
+            <div role="button" class="circle levelCircle">
+              <div>c</div>
+            </div>
+          </div>
+        </div>   <!-- level 1 close-->
+      
+      
+        <div class="flex-row">
+          <div class="leve2-1">  <!-- level 2-1-->
+            <div class="bar">  
+              <div class="circle2-bar-center"></div>
+              <div class="circle2-bar-horizontal"></div>
+              <div class="circle2-bar1"></div>
+              <div class="circle2-bar2"></div>
+            </div>
+    
+            <div class="circle-outer">
+              <div role="button" class="circle">
+                <div>a</div>
+              </div>
+              <div role="button" class="circle" data-selected="true">
+                <div>b</div>
+              </div>
+            </div>
+          </div>  <!-- level 2-1 close-->
+    
+    
+          <div class="leve2-2">
+            <div class="bar">  <!-- level 2-2-->
+              <div class="circle2-bar-center"></div>
+              <div class="circle2-bar-horizontal"></div>
+              <div class="circle2-bar1"></div>
+              <div class="circle2-bar2"></div>
+            </div>
+    
+            <div class="circle-outer">
+              <div role="button" class="circle">
+                <div>a</div>
+              </div>
+              <div role="button" class="circle" data-selected="true">
+                <div>b</div>
+              </div>
+            </div>
+          </div> <!-- level 2-2 close-->
+        </div> <!-- level 2 close-->
+      
+      </div>	<!-- 2 Level + 4circle close -->
+    </div> 
+    
+    <!-- Descendant selector close -->
+    
+    
+    <div class="border"></div>
+    
+    
+    <!-- Combine Descendant & ID selector -->
+    
+    <div class="content"> 
+      <p><strong>Combine Descendant &amp; ID</strong> Selector: <strong>#a b</strong> { }</p>
+      
+      <div>	<!-- Level 2 + 4 circle -->
+        <div class="level1">   <!-- Level 1  -->
+          <div class="circle-outer">
+            <div role="button" class="circle level-parent1">
+              <div>#a</div>
+            </div>
+          </div>
+    
+          <div class="bar">
+            <div class="level-parent1-bar-center"></div>
+            <div class="level-parent1-bar-horizontal"></div>
+            <div class="level-parent1-bar1"></div>
+            <div class="level-parent1-bar2"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle" data-selected="true">
+              <div>b</div>
+            </div>
+            <div role="button" class="circle levelCircle">
+              <div>c</div>
+            </div>
+          </div>
+        </div>   <!-- level 1 close-->
+      
+      
+        <div class="flex-row">
+          <div class="leve2-1">  <!-- level 2-1-->
+            <div class="bar">  
+              <div class="circle2-bar-center"></div>
+              <div class="circle2-bar-horizontal"></div>
+              <div class="circle2-bar1"></div>
+              <div class="circle2-bar2"></div>
+            </div>
+    
+            <div class="circle-outer">
+              <div role="button" class="circle">
+                <div>a</div>
+              </div>
+              <div role="button" class="circle" data-selected="true">
+                <div>b</div>
+              </div>
+            </div>
+          </div>  <!-- level 2-1 close-->
+    
+    
+          <div class="leve2-2">
+            <div class="bar">  <!-- level 2-2-->
+              <div class="circle2-bar-center"></div>
+              <div class="circle2-bar-horizontal"></div>
+              <div class="circle2-bar1"></div>
+              <div class="circle2-bar2"></div>
+            </div>
+    
+            <div class="circle-outer">
+              <div role="button" class="circle">
+                <div>a</div>
+              </div>
+              <div role="button" class="circle" data-selected="true">
+                <div>b</div>
+              </div>
+            </div>
+          </div> <!-- level 2-2 close-->
+        </div> <!-- level 2 close-->
+      
+      </div>	<!-- 2 Level + 4circle close -->
+    </div> 
+    
+    <!-- Descendant selector close -->
+    
+    
+    <div class="border"></div>
+    
+    
+    <!-- Class selector -->
+    
+    <div class="content">
+      <p><strong>Class</strong> Selector: <strong>.a</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle" data-selected="true">
+          <div>.a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>.b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>.c</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Type selector close-->
+    
+    
+    <div class="border"></div>
+    
+    
+    <!-- Combine the Class selector -->
+    
+    <div class="content">
+      <p><strong>Combine the Class</strong> Selector: <strong>b.x</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>a.x</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b.x</div>
+        </div>
+        <div role="button" class="circle">
+          <div>c.x</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Combine the Class selector close-->
+    
+    <div class="border"></div>
+    
+    
+    <!-- Comma Combinator selector -->
+    
+    <div class="content">
+      <p><strong>Comma Combinator</strong> Selector: <strong>a, c</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>c</div>
+        </div>
+        <div role="button" class="circle">
+          <div>d</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Comma Combinator selector close-->
+    
+    <div class="border"></div>
+    
+    
+    <!-- Universal selector -->
+    
+    <div class="content">
+      <p><strong>Universal</strong> Selector: <strong>*</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>c</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>d</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Universal selector close-->
+    
+    <div class="border"></div>
+    
+    
+    <!-- Combine Universal selector -->
+    
+    <div class="content"> 
+      <p><strong>Combine Universal</strong> Selector: <strong>a *</strong> { }</p>
+      
+      <div>	<!-- Level 2 + 4 circle -->
+        <div class="level1">   <!-- Level 1  -->
+          <div class="circle-outer">
+            <div role="button" class="circle level-parent1">
+              <div>a</div>
+            </div>
+          </div>
+    
+          <div class="bar">
+            <div class="level-parent1-bar-center"></div>
+            <div class="level-parent1-bar-horizontal"></div>
+            <div class="level-parent1-bar1"></div>
+            <div class="level-parent1-bar2"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle" data-selected="true">
+              <div>b</div>
+            </div>
+            <div class="circle levelCircle" data-selected="true">
+              <div>c</div>
+            </div>
+          </div>
+        </div>   <!-- level 1 close-->
+    
+        <div class="flex-row">
+          <div class="leve2-1">  <!-- level 2-1-->
+            <div class="bar">  
+              <div class="circle2-bar-center"></div>
+              <div class="circle2-bar-horizontal"></div>
+              <div class="circle2-bar1"></div>
+              <div class="circle2-bar2"></div>
+            </div>
+    
+            <div class="circle-outer">
+              <div role="button" class="circle" data-selected="true">
+                <div>a</div>
+              </div>
+              <div role="button" class="circle" data-selected="true">
+                <div>b</div>
+              </div>
+            </div>
+          </div>  <!-- level 2-1 close-->
+    
+    
+          <div class="leve2-2">
+            <div class="bar">  <!-- level 2-2-->
+              <div class="circle2-bar-center"></div>
+              <div class="circle2-bar-horizontal"></div>
+              <div class="circle2-bar1"></div>
+              <div class="circle2-bar2"></div>
+            </div>
+    
+            <div class="circle-outer">
+              <div role="button" class="circle" data-selected="true">
+                <div>a</div>
+              </div>
+              <div role="button" class="circle" data-selected="true">
+                <div>b</div>
+              </div>
+            </div>
+          </div> <!-- level 2-2 close-->
+        </div> <!-- level 2 close-->
+    
+      </div>	<!-- 2 Level + 4circle close -->	
+        
+    </div> 
+    
+    <!-- Combine Universal close -->
+    
+    <div class="border"></div>
+    
+    <!-- Adjacent Sibling selector -->
+    
+    <div class="content">
+      <p><strong>Adjacent Sibling</strong> Selector: <strong>a + b</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Adjacent Sibling selector close-->
+    
+    <div class="border"></div>
+    
+    <!-- General Sibling selector -->
+    
+    <div class="content">
+      <p><strong>General Sibling</strong> Selector: <strong>a ~ b</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>c</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- General Sibling selector close-->
+    
+    <div class="border"></div>
+    
+    <!-- First Child Pseudo selector -->
+    
+    <div class="content">
+      <p><strong>First Child Pseudo</strong> Selector: <strong>b:first-child</strong> { }</p>
+      <div class="circle-outer ">
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+      </div>
+      <p class="or">or</p>
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+      </div>
+      <p class="text-small firstChildPseudo">first-child</p>
+      <p class="text-medium">* In the second diagram, <strong>first-child</strong> is <strong>'a'</strong> element, not <strong>'b'</strong> element. So there is nothing to be selected</p>
+    </div>
+    
+    <!-- First Child Pseudo selector close-->
+    
+    <div class="border"></div>
+    
+    
+    <!-- Only Child Pseudo selector -->
+    <div class="content">
+      <p><strong>Only Child Pseudo </strong> Selector: 
+      </p><p><strong>b:only-child</strong> { } or</p>
+      <p><strong>a :only-child</strong> { }</p> 
+      
+      
+      <div class="flex-row">
+        
+        <!-- 1circle -->
+        <div>
+          <div class="circle-outer">
+            <div role="button" class="circle circle1-parent">
+              <div>a</div>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="circle1-bar-center"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle" data-selected="true">
+              <div>b</div>
+            </div>
+          </div>
+        </div>	
+        <!-- 1circle close-->
+    
+        <!-- 2circle -->
+        <div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle circle2-parent">
+              <div>a</div>
+            </div>
+          </div>
+    
+          <div class="bar">
+            <div class="circle2-bar-center"></div>
+            <div class="circle2-bar-horizontal"></div>
+            <div class="circle2-bar1"></div>
+            <div class="circle2-bar2"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle">
+              <div>b</div>
+            </div>
+            <div role="button" class="circle">
+              <div>b</div>
+            </div>
+          </div>
+    
+        </div>	
+        <!-- 2circle close -->
+    
+        <!-- 3circle -->
+        <div>			
+          <div class="circle-outer">
+            <div role="button" class="circle circle3-parent">
+              <div>a</div>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="circle3-bar-center"></div>
+            <div class="circle3-bar1"></div>
+            <div class="circle3-bar2"></div>
+            <div class="circle3-bar-horizontal"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle">
+              <div>a</div>
+            </div>
+            <div role="button" class="circle">
+              <div>b</div>
+            </div>
+            <div role="button" class="circle">
+              <div>c</div>
+            </div>
+          </div>
+        </div>	
+        <!-- 3circle close-->	
+      </div> <!-- diagram-outer close-->
+      
+    </div>
+    <!-- Only Child Pseudo selector close-->
+    
+    <div class="border"></div>
+    
+    <!-- Last Child Pseudo selector -->
+    
+    <div class="content">
+      <p><strong>Last Child Pseudo</strong> Selector: <strong>b:last-child</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+      </div>
+      <p class="or">or</p>
+	  <div class="number">
+        <p class="text-small invisible">0</p>
+        <p class="text-small invisible">0</p>
+        <p style="margin-left: -3px;" class="text-small">last-child</p>
+      </div>
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>c</div>
+        </div>
+      </div>
+      <p class="text-medium">* In the second diagram, <strong>last-child</strong> is <strong>'c'</strong> element, not <strong>'b'</strong> element. So there is nothing to be selected.</p>
+    </div>
+    
+    <!-- Last Child Pseudo selector close-->
+    
+    <div class="border"></div>
+    
+    <!-- Nth Child Pseudo selector -->
+    
+    <div class="content">
+      <p><strong>Nth Child Pseudo</strong> Selector:</p> 
+      <br>
+      <p>	<strong>b:nth-child(2)</strong> { }</p>
+      <!-- circle with number -->
+      <div class="number">
+        <p class="text-small">1</p>
+        <p class="text-small">2</p>
+        <p class="text-small">3</p>
+    
+      </div>
+    
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+      </div>
+      
+      <p class="or">or</p>
+      
+      <div class="number">
+        <p class="text-small">1</p>
+        <p class="text-small">2</p>
+        <p class="text-small">3</p>		
+      </div>
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+      </div>
+      
+      <p class="or">or</p>
+      
+      <div class="number">
+        <p class="text-small">1</p>
+        <p class="text-small">2</p>
+        <p class="text-small">3</p>		
+      </div>
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+      </div>
+      <!-- circle with number close-->
+      
+      <p class="text-medium">* In the third diagram, <strong>nth-child(2)</strong> is <strong>'a'</strong> element, not <strong>'b'</strong> element. So there is nothing to be selected.</p>
+      
+      <br>
+      <p>	<strong>a :nth-child(2)</strong> { }</p>
+      
+        <!-- 3circle -->
+      <div>			
+        <div class="circle-outer">
+          <div role="button" class="circle circle3-parent">
+            <div>a</div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="circle3-bar-center"></div>
+          <div class="circle3-bar1"></div>
+          <div class="circle3-bar2"></div>
+          <div class="circle3-bar-horizontal"></div>
+        </div>
+    
+        <div class="circle-outer">
+          <div role="button" class="circle">
+            <div>a</div>
+          </div>
+          <div role="button" class="circle" data-selected="true">
+            <div>b</div>
+          </div>
+          <div role="button" class="circle">
+            <div>c</div>
+          </div>
+        </div>
+      </div>	
+      <!-- 3circle close-->
+      
+    </div>
+    <!-- Nth Child Pseudo selector close -->
+    
+    <div class="border"></div>
+    
+    <!-- Nth Last Child selector -->
+    <div class="content">
+      <p><strong>Nth Last Child</strong> Selector:</p>
+      <br>
+      <p><strong>a :nth-last-child(2)</strong> { } or</p>
+      <p><strong>c:nth-last-child(2)</strong> { }</p>
+    
+    
+      
+      <!-- 4circle -->
+      <div>	
+        <div class="circle-outer">
+          <div role="button" class="circle circle4-parent">
+            <div>a</div>
+          </div>
+        </div>
+    
+        <div class="bar">
+          <div class="circle4-bar-center"></div>
+          <div class="circle4-bar-horizontal"></div>
+          <div class="circle4-bar1"></div>
+          <div class="circle4-bar2"></div>
+          <div class="circle4-bar3"></div>
+          <div class="circle4-bar4"></div>
+        </div>
+    
+        <div class="circle-outer">
+          <div role="button" class="circle">
+            <div>a</div>
+          </div>
+          <div role="button" class="circle">
+            <div>b</div>
+          </div>
+          <div role="button" class="circle" data-selected="true">
+            <div>c</div>
+          </div>
+          <div role="button" class="circle">
+            <div>d</div>
+          </div>
+        </div>
+      </div>	
+      <!-- 4circle close -->
+      
+      <!-- numbers -->
+      <div class="number">
+        <p class="text-small">4</p>
+        <p class="text-small">3</p>
+        <p class="text-small">2</p>
+        <p class="text-small">1</p>
+    
+      </div>
+      <!-- numbers close -->
+      
+      <br><br><br>
+      
+      <p><strong>a:nth-last-child(2)</strong> { } or</p> 
+      <p><strong>b:nth-last-child(2)</strong> { } or</p> 
+      <p><strong>d:nth-last-child(2)</strong> { }</p>
+    
+        <!-- 4circle -->
+      <div>	
+        <div class="circle-outer">
+          <div role="button" class="circle circle4-parent">
+            <div>a</div>
+          </div>
+        </div>
+    
+        <div class="bar">
+          <div class="circle4-bar-center"></div>
+          <div class="circle4-bar-horizontal"></div>
+          <div class="circle4-bar1"></div>
+          <div class="circle4-bar2"></div>
+          <div class="circle4-bar3"></div>
+          <div class="circle4-bar4"></div>
+        </div>
+    
+        <div class="circle-outer">
+          <div role="button" class="circle">
+            <div>a</div>
+          </div>
+          <div role="button" class="circle">
+            <div>b</div>
+          </div>
+          <div role="button" class="circle">
+            <div>c</div>
+          </div>
+          <div role="button" class="circle">
+            <div>d</div>
+          </div>
+        </div>
+      </div>	
+      <!-- 4circle close -->
+      
+      <!-- numbers -->
+      <div class="number">
+        <p class="text-small">4</p>
+        <p class="text-small">3</p>
+        <p class="text-small">2</p>
+        <p class="text-small">1</p>
+    
+      </div>
+      <!-- numbers close -->
+      <p class="text-medium">* In this diagram, <strong>nth-last-child(2)</strong> is <strong>'c'</strong> element, not <strong>'b'</strong> element. So there is nothing to be selected.</p>
+      
+    </div>
+    <!-- Nth Last Child selector close-->
+    
+    <div class="border"></div>
+    
+    
+    <!-- First of Type selector -->
+    <div class="content">
+      <p><strong>First of&nbsp;Type</strong> Selector: <strong>b:first-of-type</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>		
+      </div>
+    </div>
+    <!-- First of Type selector close-->
+    
+    
+    <div class="border"></div>
+    
+    
+    <!-- Nth of Type selector -->
+    <div class="content">
+      <p><strong>Nth of Type</strong> Selector:</p> 
+      <br>
+      <p>	<strong>a:nth-of-type(2)</strong> { }</p>
+      <!-- circle with number -->
+      <div class="number">
+        <p class="text-small">1</p>
+        <p class="text-small invisible">0</p>
+        <p class="text-small">2</p>
+        <p class="text-small invisible">0</p>
+        <p class="text-small">3</p>	
+		<p class="text-small invisible">0</p>
+        <p class="text-small">4</p>	
+      </div>
+    
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+		<div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+      </div>
+      <!-- circle with number close-->
+      
+      <br><br>
+      
+        <p>	<strong>a:nth-of-type(even)</strong> { }</p>
+      <!-- circle with number -->
+      <div class="number">
+        <p class="text-small">1</p>
+        <p class="text-small invisible">0</p>
+        <p class="text-small">2</p>
+        <p class="text-small invisible">0</p>
+        <p class="text-small">3</p>		
+        <p class="text-small invisible">0</p>
+        <p class="text-small">4</p>			
+      </div>
+    
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+      </div>
+      <!-- circle with number close-->
+      
+        <br><br>
+      
+        <p>	<strong>a:nth-of-type(odd)</strong> { }</p>
+      <!-- circle with number -->
+      <div class="number">
+        <p class="text-small">1</p>
+        <p class="text-small invisible">0</p>
+        <p class="text-small">2</p>
+        <p class="text-small invisible">0</p>
+        <p class="text-small">3</p>		
+        <p class="text-small invisible">0</p>
+        <p class="text-small">4</p>			
+      </div>
+    
+      <div class="circle-outer">
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+      </div>
+      <!-- circle with number close-->
+      
+        <br><br>
+      
+        <p>	<strong>a:nth-of-type(2n+1)</strong> { }</p>
+      <!-- circle with number -->
+      <div class="number">
+        <p class="text-small">1</p>
+        <p class="text-small invisible">0</p>
+        <p class="text-small">2</p>
+        <p class="text-small invisible">0</p>
+        <p class="text-small">3</p>		
+        <p class="text-small invisible">0</p>
+        <p class="text-small">4</p>			
+      </div>
+    
+      <div class="circle-outer">
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+      </div>
+      <!-- circle with number close-->
+      <div class="number">
+        <p class="text-small nth-of-type" style="left: 150px;">2n+1</p>		
+      </div>
+	
+	  <p class="text-medium">
+		  * <strong>n</strong> is an every positive integer or zero value.
+	  </p>
+    </div>
+    <!-- Nth of Type selector close -->
+    
+    
+    <div class="border"></div>
+    
+    <!-- Only of Type selector -->
+    <div class="content">
+      <p><strong>Only of&nbsp;Type </strong> Selector: <strong>b:only-of-type</strong> { }</p>
+    
+      
+      
+      <div class="flex-row">
+        
+        <!-- 1circle -->
+        <div>
+          <div class="circle-outer">
+            <div role="button" class="circle circle1-parent">
+              <div>a</div>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="circle1-bar-center"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle" data-selected="true">
+              <div>b</div>
+            </div>
+          </div>
+        </div>	
+        <!-- 1circle close-->
+    
+        <!-- 2circle -->
+        <div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle circle2-parent">
+              <div>a</div>
+            </div>
+          </div>
+    
+          <div class="bar">
+            <div class="circle2-bar-center"></div>
+            <div class="circle2-bar-horizontal"></div>
+            <div class="circle2-bar1"></div>
+            <div class="circle2-bar2"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle">
+              <div>b</div>
+            </div>
+            <div role="button" class="circle">
+              <div>b</div>
+            </div>
+          </div>
+    
+        </div>	
+        <!-- 2circle close -->
+    
+        <!-- 3circle -->
+        <div>			
+          <div class="circle-outer">
+            <div class="circle circle3-parent">
+              <div>a</div>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="circle3-bar-center"></div>
+            <div class="circle3-bar1"></div>
+            <div class="circle3-bar2"></div>
+            <div class="circle3-bar-horizontal"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle">
+              <div>a</div>
+            </div>
+            <div role="button" class="circle" data-selected="true">
+              <div>b</div>
+            </div>
+            <div role="button" class="circle">
+              <div>c</div>
+            </div>
+          </div>
+        </div>	
+        <!-- 3circle close-->	
+      </div> <!-- diagram-outer close-->
+      
+    </div>
+    
+    
+    
+    <!-- Only of Type selector close -->
+    
+    
+    <div class="border"></div>
+    
+    <!-- Last of Type selector -->
+    <div class="content">
+      <p><strong>Last of&nbsp;Type</strong> Selector: </p>
+      <br>
+      
+      <p><strong>b:last-of-type</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>b</div>
+        </div>
+      </div>
+      
+      <br>
+      <br>
+      <br>
+      
+      <p><strong>a :last-of-type</strong> { }</p>
+      <!-- 3circle -->
+      <div>			
+        <div class="circle-outer">
+          <div role="button" class="circle circle3-parent">
+            <div>a</div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="circle3-bar-center"></div>
+          <div class="circle3-bar1"></div>
+          <div class="circle3-bar2"></div>
+          <div class="circle3-bar-horizontal"></div>
+        </div>
+    
+        <div class="circle-outer">
+          <div role="button" class="circle">
+            <div>b</div>
+          </div>
+          <div role="button" class="circle">
+            <div>b</div>
+          </div>
+          <div role="button" class="circle" data-selected="true">
+            <div>b</div>
+          </div>
+        </div>
+      </div>	
+      <!-- 3circle close-->
+      
+    
+      <p class="or">or</p>
+    
+      <!-- 5circle -->
+      <div>	
+        <div class="circle-outer">
+          <div role="button" class="circle circle5-parent">
+            <div>a</div>
+          </div>
+        </div>
+    
+        <div class="bar">
+          <div class="circle5-bar-center"></div>
+          <div class="circle5-bar-horizontal"></div>
+          <div class="circle5-bar1"></div>
+          <div class="circle5-bar2"></div>
+          <div class="circle5-bar3"></div>
+          <div class="circle5-bar4"></div>
+          <div class="circle5-bar5"></div>		
+        </div>
+    
+        <div class="circle-outer">
+          <div role="button" class="circle">
+            <div>b</div>
+          </div>
+          <div role="button" class="circle" data-selected="true">
+            <div>b</div>
+          </div>
+          <div role="button" class="circle">
+            <div>c</div>
+          </div>
+          <div role="button" class="circle" data-selected="true">
+            <div>c</div>
+          </div>
+          <div role="button" class="circle" data-selected="true">
+            <div>d</div>
+          </div>		
+        </div>
+      </div>	
+      <!-- 5circle close -->
+      
+      <br><br><br>
+      
+      <p><strong>.x:last-of-type</strong> { }</p>
+    
+      <!-- 6 circle -->
+      <div>	
+        <div class="circle-outer">
+          <div role="button" class="circle circle6-parent">
+            <div>a</div>
+          </div>
+        </div>
+    
+        <div class="bar">
+          <div class="circle6-bar-center"></div>
+          <div class="circle6-bar-horizontal"></div>
+          <div class="circle6-bar1"></div>
+          <div class="circle6-bar2"></div>
+          <div class="circle6-bar3"></div>
+          <div class="circle6-bar4"></div>
+          <div class="circle6-bar5"></div>		
+          <div class="circle6-bar6"></div>		
+        </div>
+    
+        <div class="circle-outer">
+          <div role="button" class="circle">
+            <div>b</div>
+          </div>
+          <div role="button" class="circle">
+            <div>c</div>
+          </div>
+          <div role="button" class="circle">
+            <div>b.x</div>
+          </div>
+          <div role="button" class="circle">
+            <div>c.x</div>
+          </div>
+          <div role="button" class="circle" data-selected="true">
+            <div>b.x</div>
+          </div>		
+          <div role="button" class="circle" data-selected="true">
+            <div>c.x</div>
+          </div>
+        </div>
+      </div>	
+      <!-- 6 circle close -->
+    
+      <p class="or">or</p>
+    
+      <!-- 6 circle -->
+      <div>	
+        <div class="circle-outer">
+          <div role="button" class="circle circle6-parent">
+            <div>a</div>
+          </div>
+        </div>
+    
+        <div class="bar">
+          <div class="circle6-bar-center"></div>
+          <div class="circle6-bar-horizontal"></div>
+          <div class="circle6-bar1"></div>
+          <div class="circle6-bar2"></div>
+          <div class="circle6-bar3"></div>
+          <div class="circle6-bar4"></div>
+          <div class="circle6-bar5"></div>		
+          <div class="circle6-bar6"></div>		
+        </div>
+    
+        <div class="circle-outer">
+          <div role="button" class="circle">
+            <div>b.x</div>
+          </div>
+          <div role="button" class="circle">
+            <div>c.x</div>
+          </div>
+          <div role="button" class="circle">
+            <div>b.x</div>
+          </div>
+          <div role="button" class="circle">
+            <div>c.x</div>
+          </div>
+          <div role="button" class="circle">
+            <div>b</div>
+          </div>		
+          <div role="button" class="circle">
+            <div>c</div>
+          </div>
+        </div>
+      </div>	
+      <!-- 6 circle close -->
+      
+      
+      <!-- arrow -->
+      <div class="arrow-outer">
+        <div class="arrow flex-row">
+          <div class="arrow1"></div>
+          <div class="arrow2"></div>
+        </div>	
+    
+        <div class="bar">
+          <div class="arrow-bar-center"></div>
+          <div class="arrow-bar-horizontal"></div>
+          <div class="arrow-bar1"></div>
+          <div class="arrow-bar2"></div>
+        </div>
+      </div>
+      <!-- arrow close -->
+      <p class="text-medium">* Those items won’t be selected as no <strong>.x</strong> is presented</p>
+      
+    </div>
+    
+    <!-- Last of Type selector close -->
+    
+    
+    <div class="border"></div>
+    
+    
+    
+    <!-- Empty selector -->
+    
+    <div class="content">
+      <p><strong>Empty</strong> Selector: <strong>a:empty</strong> { }</p>
+      
+      <!-- 	infographic outer -->
+      <div class="circle-outer">
+        <div role="button" class="circle marginRight" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle marginRight">
+          <div>a</div>
+        </div>
+        <!-- 2circle -->
+        <div>
+          <div class="circle-outer">
+            <div role="button" class="circle circle2-parent">
+              <div>a</div>
+            </div>
+          </div>
+    
+          <div class="bar">
+            <div class="circle2-bar-center"></div>
+            <div class="circle2-bar-horizontal"></div>
+            <div class="circle2-bar1"></div>
+            <div class="circle2-bar2"></div>
+          </div>
+    
+          <div class="circle-outer">
+            <div role="button" class="circle">
+              <div>b</div>
+            </div>
+            <div role="button" class="circle">
+              <div>b</div>
+            </div>
+          </div>
+    
+        </div>	
+        <!-- 2circle close -->
+        <p class="text-small hello">hello</p>
+      </div>  
+      <!-- 	infographic outer close-->
+      
+      <p class="text-medium">* No children elements or  text.</p>
+    </div>
+    
+    <!-- Empty selector close -->
+    
+    
+    <div class="border"></div>
+    
+    
+    <!-- Negation Pseudo-class selector -->
+    <div class="content">
+      <p><strong>Negation Pseudo-class</strong> Selector:</p> 
+      <br>
+      <p><strong>a:not(.x)</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a.x</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b.x</div>
+        </div>
+      </div>
+      
+      <br><br>
+      <p><strong>a:not(:last-of-type)</strong> { }</p>
+      <div class="circle-outer">
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- Negation Pseudo-class selector close -->
+    
+    
+    <div class="border"></div>
+    
+    <!-- Attribute selector -->
+    <div class="content">
+      <p><strong>Attribute</strong> Selector:</p> 
+      <br>
+      <p><strong>[for]</strong> { }</p>
+      <div class="circle-outer condensed">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a[x]</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a[y]</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a[z]</div>
+        </div>
+      </div>
+      
+      <br><br>
+      <p><strong>a[for]</strong> { }</p>
+      <div class="circle-outer condensed">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a[x]</div>
+        </div>
+        <div role="button" class="circle">
+          <div>b[y]</div>
+        </div>
+        <div role="button" class="circle">
+          <div>c[z]</div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- Attribute selector close -->
+    
+    
+    <div class="border"></div>
+    
+    <!-- Attribute Value selector -->
+    <div class="content">
+      <p><strong>Attribute Value</strong> Selector: <strong>a[for=“x”]</strong> { }</p>
+      <div class="circle-outer condensed">
+        <div role="button" class="circle">
+          <div>a</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>a[x]</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a[y]</div>
+        </div>
+        <div role="button" class="circle">
+          <div>a[z]</div>
+        </div>
+      </div>
+    </div>
+    <!-- Attribute Value selector close -->
+    
+    
+    <div class="border"></div>
+    
+    <!-- Attribute Starts selector -->
+    <div class="content">
+      <p><strong>Attribute Starts</strong> Selector: <strong>[for^=“x”]</strong> { }</p>
+      <div class="circle-outer condensed">
+        <div role="button" class="circle" data-selected="true">
+          <div>[x]</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>[xy]</div>
+        </div>
+        <div role="button" class="circle">
+          <div>[yz]</div>
+        </div>
+        <div role="button" class="circle">
+          <div>[zx]</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Attribute Starts selector close -->
+    
+    
+    <div class="border"></div>
+    
+    <!-- Attribute Ends selector -->
+    <div class="content">
+      <p><strong>Attribute Ends</strong> Selector: <strong>[for$=“x”]</strong> { }</p>
+      <div class="circle-outer condensed">
+        <div role="button" class="circle" data-selected="true">
+          <div>[x]</div>
+        </div>
+        <div role="button" class="circle">
+          <div>[xy]</div>
+        </div>
+        <div role="button" class="circle">
+          <div>[yz]</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>[zx]</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Attribute Ends selector close -->
+    
+    
+    <div class="border"></div>
+    
+    <!-- Attribute Wildcard selector -->
+    
+    <div class="content">
+      <p><strong>Attribute Wildcard</strong> Selector: <strong>[for*=“x”]</strong> { }</p>
+      <div class="circle-outer condensed">
+        <div role="button" class="circle" data-selected="true">
+          <div>[x]</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>[xy]</div>
+        </div>
+        <div role="button" class="circle">
+          <div>[yz]</div>
+        </div>
+        <div role="button" class="circle" data-selected="true">
+          <div>[zx]</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Attribute Wildcard selector close -->
+    
+    <br>
+    
+    <div class="title">
+      <h2>* the end *</h2> 
+      <div>
+        <p class="intro-text">This cheatsheet is desinged for a quick search on CSS selectors  :) 
+    There are so many CSS selectors with unfamiliar symbols,  &gt;  .  ,  *  +  ~ [ ] etc,   
+    so I am often confused with how CSS selectors work.  
+    I wish this infographic helps you find proper CSS selectors.
+    Print this PDF out and stick it on the wall. 
+    And if you need more details on CSS selectors, check out links below;</p>
+      </div>
+    
+      <h2>* Happy codesign today! *</h2>
+    </div>
+
+    <div class="toggleWrapper">
+      <input type="checkbox" class="doTheMagic" id="doTheMagic">
+      <label for="doTheMagic" class="toggle">
+        <div class="game ga">
+          <div class="ga__icon">🕹</div>
+          <div>game</div>
+        </div>
+        <div class="answers ga">
+          <div class="ga__icon ga__answers">📖</div>
+          <div>answers</div>
+        </div>
+        <span class="btn"></span>
+      </label>
+    </div>
+  </div>
+
+<!--googleoff: all--><div id="cookie-law-info-bar" data-nosnippet="true"><span><div class="cli-bar-container cli-style-v2"><div class="cli-bar-message">We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept”, you consent to the use of ALL the cookies.</div><div class="cli-bar-btn_container"><a role="button" tabindex="0" class="cli_settings_button" style="margin:0px 10px 0px 5px;">Cookie settings</a><a role="button" tabindex="0" data-cli_action="accept" id="cookie_action_close_header" class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button" style="display:inline-block; ">ACCEPT</a></div></div></span></div><div id="cookie-law-info-again" style="display:none;" data-nosnippet="true"><span id="cookie_hdr_showagain">Manage consent</span></div><div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+	<div class="cli-modal-content cli-bar-popup">
+	  	<button type="button" class="cli-modal-close" id="cliModalClose">
+			<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+			<span class="wt-cli-sr-only">Close</span>
+	  	</button>
+	  	<div class="cli-modal-body">
+			<div class="cli-container-fluid cli-tab-container">
+	<div class="cli-row">
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+			<div class="cli-privacy-overview">
+				<h4>Privacy Overview</h4>				<div class="cli-privacy-content">
+					<div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+				</div>
+				<a class="cli-privacy-readmore" aria-label="Show more" tabindex="0" role="button" data-readmore-text="Show more" data-readless-text="Show less"></a>			</div>
+		</div>
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+												<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+								Necessary							</a>
+							<div class="wt-cli-necessary-checkbox">
+                        <input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-necessary" data-id="checkbox-necessary" checked="checked">
+                        <label class="form-check-label" for="wt-cli-checkbox-necessary">Necessary</label>
+                    </div>
+                    <span class="cli-necessary-caption">Always Enabled</span> 						</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="necessary">
+								<p>Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+</p><table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Duration</th><th class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">__stripe_mid</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">This cookie is set by Stripe payment gateway. This cookie is used to enable payment on the website without storing any patment information on a server.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">__stripe_sid</td><td class="cookielawinfo-column-3">30 minutes</td><td class="cookielawinfo-column-4">This cookie is set by Stripe payment gateway. This cookie is used to enable payment on the website without storing any patment information on a server.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checbox-analytics</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Analytics".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checbox-functional</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checbox-others</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Other.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-advertisement</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Advertisement".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-necessary</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category "Necessary".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-performance</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">viewed_cookie_policy</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.</td></tr></tbody></table><p></p>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="functional" data-toggle="cli-toggle-tab">
+								Functional							</a>
+							<div class="cli-switch">
+                        <input type="checkbox" id="wt-cli-checkbox-functional" class="cli-user-preference-checkbox" data-id="checkbox-functional">
+                        <label for="wt-cli-checkbox-functional" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Functional</span></label>
+                    </div>						</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="functional">
+								<p>Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+</p><table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Duration</th><th class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">mailchimp_landing_site</td><td class="cookielawinfo-column-3">1 month</td><td class="cookielawinfo-column-4">The cookie is set by the email marketing service MailChimp.</td></tr></tbody></table><p></p>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="performance" data-toggle="cli-toggle-tab">
+								Performance							</a>
+							<div class="cli-switch">
+                        <input type="checkbox" id="wt-cli-checkbox-performance" class="cli-user-preference-checkbox" data-id="checkbox-performance">
+                        <label for="wt-cli-checkbox-performance" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Performance</span></label>
+                    </div>						</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="performance">
+								<p>Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+</p><table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Duration</th><th class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">swpm_session</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">This cookie is set by the Simple WordPress Membership Plugin. This cookie is used for membership login session and to provide access to the protected content on the website.This cookie keeps the login records so user don't want to authorise each time while moving to next page.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">YSC</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">This cookies is set by Youtube and is used to track the views of embedded videos.</td></tr></tbody></table><p></p>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="analytics" data-toggle="cli-toggle-tab">
+								Analytics							</a>
+							<div class="cli-switch">
+                        <input type="checkbox" id="wt-cli-checkbox-analytics" class="cli-user-preference-checkbox" data-id="checkbox-analytics">
+                        <label for="wt-cli-checkbox-analytics" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Analytics</span></label>
+                    </div>						</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="analytics">
+								<p>Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+</p><table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Duration</th><th class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_ga</td><td class="cookielawinfo-column-3">2 years</td><td class="cookielawinfo-column-4">This cookie is installed by Google Analytics. The cookie is used to calculate visitor, session, campaign data and keep track of site usage for the site's analytics report. The cookies store information anonymously and assign a randomly generated number to identify unique visitors.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_gid</td><td class="cookielawinfo-column-3">1 day</td><td class="cookielawinfo-column-4">This cookie is installed by Google Analytics. The cookie is used to store information of how visitors use a website and helps in creating an analytics report of how the website is doing. The data collected including the number visitors, the source where they have come from, and the pages visted in an anonymous form.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">tk_lr</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">This cookie is set by JetPack plugin on sites using WooCommerce. This is a referral cookie used for analyzing referrer behavior for Jetpack</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">tk_or</td><td class="cookielawinfo-column-3">5 years</td><td class="cookielawinfo-column-4">This cookie is set by JetPack plugin on sites using WooCommerce. This is a referral cookie used for analyzing referrer behavior for Jetpack</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">tk_r3d</td><td class="cookielawinfo-column-3">3 days</td><td class="cookielawinfo-column-4">The cookie is installed by JetPack. Used for the internal metrics fo user activities to improve user experience</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">vuid</td><td class="cookielawinfo-column-3">2 years</td><td class="cookielawinfo-column-4">This domain of this cookie is owned by Vimeo. This cookie is used by vimeo to collect tracking information. It sets a unique ID to embed videos to the website.</td></tr></tbody></table><p></p>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab">
+								Advertisement							</a>
+							<div class="cli-switch">
+                        <input type="checkbox" id="wt-cli-checkbox-advertisement" class="cli-user-preference-checkbox" data-id="checkbox-advertisement">
+                        <label for="wt-cli-checkbox-advertisement" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Advertisement</span></label>
+                    </div>						</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="advertisement">
+								<p>Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+</p><table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Duration</th><th class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">IDE</td><td class="cookielawinfo-column-3">1 year 24 days</td><td class="cookielawinfo-column-4">Used by Google DoubleClick and stores information about how the user uses the website and any other advertisement before visiting the website. This is used to present users with ads that are relevant to them according to the user profile.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">test_cookie</td><td class="cookielawinfo-column-3">15 minutes</td><td class="cookielawinfo-column-4">This cookie is set by doubleclick.net. The purpose of the cookie is to determine if the user's browser supports cookies.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">VISITOR_INFO1_LIVE</td><td class="cookielawinfo-column-3">5 months 27 days</td><td class="cookielawinfo-column-4">This cookie is set by Youtube. Used to track the information of the embedded YouTube videos on a website.</td></tr></tbody></table><p></p>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="others" data-toggle="cli-toggle-tab">
+								Others							</a>
+							<div class="cli-switch">
+                        <input type="checkbox" id="wt-cli-checkbox-others" class="cli-user-preference-checkbox" data-id="checkbox-others">
+                        <label for="wt-cli-checkbox-others" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Others</span></label>
+                    </div>						</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="others">
+								<p>Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+</p><table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Duration</th><th class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_gat_UA-124914705-1</td><td class="cookielawinfo-column-3">1 minute</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">CONSENT</td><td class="cookielawinfo-column-3">16 years 8 months 8 days 9 hours 1 minute</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookies.js</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">m</td><td class="cookielawinfo-column-3">2 years</td><td class="cookielawinfo-column-4">No description</td></tr></tbody></table><p></p>
+							</div>
+						</div>
+					</div>
+										</div>
+	</div>
+</div>
+	  	</div>
+	  	<div class="cli-modal-footer">
+			<div class="wt-cli-element cli-container-fluid cli-tab-container">
+				<div class="cli-row">
+					<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+						<div class="cli-tab-footer wt-cli-privacy-overview-actions">
+						
+															<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE &amp; ACCEPT</a>
+													</div>
+												<div class="wt-cli-ckyes-footer-section">
+							<div class="wt-cli-ckyes-brand-logo">Powered by <a target="_blank" href="https://www.cookieyes.com/"><img src="fonts/logo-cookieyes.svg"></a></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--><script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d5f6d01249f95f2cf15c27272/8d398d26dc6b78e42fc1ac668.js");</script><link rel="stylesheet" id="cookie-law-info-table-css" href="css/cookie-law-info-table.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery.blockUI.min.js" id="jquery-blockui-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/frontend30.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/add-to-cart.min.js" id="wc-add-to-cart-js"></script>
+<script type="text/javascript" src="js/js.cookie.min.js" id="js-cookie-js"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/woocommerce.min.js" id="woocommerce-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_c91cbb9733d46cdf2362f69d9c5fefcb","fragment_name":"wc_fragments_c91cbb9733d46cdf2362f69d9c5fefcb","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/cart-fragments.min.js" id="wc-cart-fragments-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-after">
+		jQuery( 'body' ).bind( 'wc_fragments_refreshed', function() {
+			var jetpackLazyImagesLoadEvent;
+			try {
+				jetpackLazyImagesLoadEvent = new Event( 'jetpack-lazy-images-load', {
+					bubbles: true,
+					cancelable: true
+				} );
+			} catch ( e ) {
+				jetpackLazyImagesLoadEvent = document.createEvent( 'Event' )
+				jetpackLazyImagesLoadEvent.initEvent( 'jetpack-lazy-images-load', true, true );
+			}
+			jQuery( 'body' ).get( 0 ).dispatchEvent( jetpackLazyImagesLoadEvent );
+		} );
+		
+</script>
+<script type="text/javascript" id="woosb-frontend-js-extra">
+/* <![CDATA[ */
+var woosb_vars = {"version":"5.6.4","alert_selection":"Please select some product options for [name] before adding this bundle to the cart.","alert_empty":"Please choose at least one product before adding this bundle to the cart.","alert_min":"Please choose at least [min] in the whole products before adding this bundle to the cart.","alert_max":"Please choose maximum [max] in the whole products before adding this bundle to the cart.","price_text":"","saved_text":"(saved [d])","container_selector":"","change_image":"yes","bundled_price":"price","bundled_price_from":"sale_price","change_price":"yes","price_selector":"","price_format":"%1$s%2$s","price_decimals":"2","price_thousand_separator":",","price_decimal_separator":".","currency_symbol":"$"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/frontend.js" id="woosb-frontend-js"></script>
+<script type="text/javascript" id="mailchimp-woocommerce-js-extra">
+/* <![CDATA[ */
+var mailchimp_public_data = {"site_url":"https:\/\/frontend30.com","ajax_url":"https:\/\/frontend30.com\/wp-admin\/admin-ajax.php","language":"en"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/mailchimp-woocommerce-public.min.js" id="mailchimp-woocommerce-js"></script>
+<script type="text/javascript" src="js/main.min_2.js" id="unicorn-global-js-js"></script>
+<script type="text/javascript" src="js/2.0381ec18.chunk.js" id="wp-vendor-course-search-js"></script>
+<script type="text/javascript" id="wp-main-course-search-js-extra">
+/* <![CDATA[ */
+var wpApiSettings = {"nonce":"2ffc1a3f22"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/main.3278357b.chunk.js" id="wp-main-course-search-js"></script>
+<script type="text/javascript" src="js/runtime-main.2c10b5fd.js" id="wp-runtim-course-search-js"></script>
+<script type="text/javascript" src="js/2.f3217015.chunk.js" id="wp-vendor-js"></script>
+<script type="text/javascript" id="wp-main-js-extra">
+/* <![CDATA[ */
+var wpApiSettings = {"nonce":"2ffc1a3f22"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/main.f0e8452b.chunk.js" id="wp-main-js"></script>
+<script type="text/javascript" src="js/runtime~main.a8a9905a.js" id="wp-runtim-js"></script>
+<script type="text/javascript" id="fe30-main-js-js-extra">
+/* <![CDATA[ */
+var wpApiSettings = {"nonce":"2ffc1a3f22"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/main.min.js" id="fe30-main-js-js"></script>
+<script type="text/javascript" src="js/wp-embed.min.js" id="wp-embed-js"></script>
+<script src="js/e-202326.js" defer=""></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.7.2',blog:'183980102',post:'301',tz:'0',srv:'frontend30.com'} ]);
+	_stq.push([ 'clickTrackerInit', '183980102', '301' ]);
+</script>
+<script type="text/javascript" src="js/main.min_1.js" id="unicorn-global-js-js-1.1"></script>
+
+
+
+</body></html><!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: frontend30.com @ 2023-06-27 03:55:28 by W3 Total Cache
+-->
