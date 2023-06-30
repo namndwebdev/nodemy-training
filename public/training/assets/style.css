@@ -296,11 +296,14 @@ h1.intro-website {
 }
 
 .css-title-chung {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 700;
     top: 6px;
     left: 50%;
+    transform: translateX(-50%);
     margin-bottom: 20px;
+    position: absolute;
+    white-space: nowrap;
 }
 
 video {

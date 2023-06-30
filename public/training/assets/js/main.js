@@ -100,9 +100,9 @@ function HTMLChapter() {
 </div>
 <div class="row mb-4" style="border-radius: 10px">
     <div class="hilight-code col-12 col-lg-6">
-        <pre>
-            <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">   <span style="color:rgb(127, 219, 202); font-weight:400;">
-&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">thead</span>&gt;</span>
+<pre>
+<code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">table</span> <span style="color:rgb(127, 219, 202); font-weight:400;">class</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;table&quot;</span>&gt;</span>
+<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">thead</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;col&quot;</span>&gt;</span>#<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;col&quot;</span>&gt;</span>First<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
@@ -117,6 +117,12 @@ function HTMLChapter() {
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>Otto<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>@mdo<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
+<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
+<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;row&quot;</span>&gt;</span>2<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
+<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span> <span style="color:rgb(127, 219, 202); font-weight:400;">colspan</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;2&quot;</span>&gt;</span>Jacob<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
+<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span> <span style="color:rgb(127, 219, 202); font-weight:400;">colspan</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;1&quot;</span>&gt;</span>Thornton<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
+<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>@fat<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
+<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">tbody</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">table</span>&gt;</span></code></pre>
     </div>
@@ -124,24 +130,30 @@ function HTMLChapter() {
         class="col-12 col-lg-6 light-hilight"
         style="font-size: 16px"
     >
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-            </tbody>
-        </table>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td colspan="2">Jacob</td>
+            <td colspan="1">Thornton</td>
+            <td>@fat</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 </div>
 <div class="row mb-4" style="border-radius: 10px">
@@ -789,7 +801,7 @@ function CSSChapter() {
                     ></div>
                 </div>
                 <img
-                    src="./assets/images/Screenshot 2023-06-29 145147.png"
+                    src="./training/assets/images/Screenshot 2023-06-29 145147.png"
                     style="
                         width: 200px;
                         height: 200px;
