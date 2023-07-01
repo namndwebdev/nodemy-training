@@ -28,9 +28,10 @@ function HTMLChapter() {
         <h6>Heading 6</h6>
     </div>
 </div>
+
 <div class="row mb-4" style="border-radius: 10px">
-    <div class="hilight-code col-12 col-lg-6">
-        <pre>
+                                <div class="hilight-code col-12 col-lg-6">
+                                    <pre>
 <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">&lt;<span style="color:rgb(173, 219, 103); font-weight:400;">input</span> <span style="color:rgb(173, 219, 103); font-weight:400;">type</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;text&quot;</span> /&gt;
 &lt;<span style="color:rgb(173, 219, 103); font-weight:400;">input</span> <span style="color:rgb(173, 219, 103); font-weight:400;">type</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;checkbox&quot;</span> /&gt;
 &lt;<span style="color:rgb(173, 219, 103); font-weight:400;">input</span> <span style="color:rgb(173, 219, 103); font-weight:400;">type</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;radio&quot;</span> /&gt;
@@ -43,154 +44,157 @@ function HTMLChapter() {
 &lt;<span style="color:rgb(173, 219, 103); font-weight:400;">button</span> <span style="color:rgb(173, 219, 103); font-weight:400;">type</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;submit&quot;</span>>Click me submit&lt;<span style="color:rgb(173, 219, 103); font-weight:400;">button</span>/&gt;
 &lt;<span style="color:rgb(173, 219, 103); font-weight:400;">button</span> <span style="color:rgb(173, 219, 103); font-weight:400;">type</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;reset&quot;</span>>Click me reset&lt;<span style="color:rgb(173, 219, 103); font-weight:400;">button</span>/&gt;
 </code></pre>
-    </div>
-    <div class="col-12 col-lg-6 light-hilight">
-        <form action="">
-            <input
-                type="text"
-                placeholder="Nhập text của bạn ở đây"
-            />
-            <br />
-            <input type="checkbox" />
-            <input type="checkbox" />
-            <input type="checkbox" />
-            <br />
-            <input type="radio" />
-            <input type="radio" />
-            <input type="radio" />
-            <br />
-            <input type="range" />
-            <br />
-            <input type="date" />
-            <br />
-            <br />
-            <input
-                type="email"
-                required
-                placeholder="Nhap email ban o day"
-            />
-            <br />
-            <br />
-            <input
-                type="password"
-                placeholder="Nhap password..."
-            />
-            <br />
-            <br />
-            <textarea
-                placeholder="Nhap text cua ban vao day..."
-            ></textarea>
-            <br />
-            <br />
-            <button type="button">
-                ClickMe button
-            </button>
-            <br />
-            <br />
-            <button type="submit">
-                ClickMe submit
-            </button>
-            <br />
-            <br />
-            <button type="reset">
-                ClickMe reset
-            </button>
-        </form>
-    </div>
-</div>
-<div class="row mb-4" style="border-radius: 10px">
-    <div class="hilight-code col-12 col-lg-6">
+                                </div>
+                                <div class="col-12 col-lg-6 light-hilight">
+                                    <form action="">
+                                        <input
+                                            type="text"
+                                            placeholder="Nhập text của bạn ở đây"
+                                        />
+                                        <br />
+                                        <input type="checkbox" />
+                                        <input type="checkbox" />
+                                        <input type="checkbox" />
+                                        <br />
+                                        <input type="radio" />
+                                        <input type="radio" />
+                                        <input type="radio" />
+                                        <br />
+                                        <input type="range" />
+                                        <br />
+                                        <input type="date" />
+                                        <br />
+                                        <br />
+                                        <input
+                                            type="email"
+                                            required
+                                            placeholder="Nhap email ban o day"
+                                        />
+                                        <br />
+                                        <br />
+                                        <input
+                                            type="password"
+                                            placeholder="Nhap password..."
+                                        />
+                                        <br />
+                                        <br />
+                                        <textarea
+                                            placeholder="Nhap text cua ban vao day..."
+                                        ></textarea>
+                                        <br />
+                                        <br />
+                                        <button type="button">
+                                            ClickMe button
+                                        </button>
+                                        <br />
+                                        <br />
+                                        <button type="submit">
+                                            ClickMe submit
+                                        </button>
+                                        <br />
+                                        <br />
+                                        <button type="reset">
+                                            ClickMe reset
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4" style="border-radius: 10px">
+                            <div class="hilight-code col-12 col-lg-6">
 <pre>
 <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">table</span> <span style="color:rgb(127, 219, 202); font-weight:400;">class</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;table&quot;</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">thead</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;col&quot;</span>&gt;</span>#<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;col&quot;</span>&gt;</span>First<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;col&quot;</span>&gt;</span>Last<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;col&quot;</span>&gt;</span>Handle<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
+    <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;col&quot;</span>&gt;</span>#<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;col&quot;</span>&gt;</span>First<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;col&quot;</span>&gt;</span>Last<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;col&quot;</span>&gt;</span>Handle<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
+    <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">thead</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">tbody</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;row&quot;</span>&gt;</span>1<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>Mark<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>Otto<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>@mdo<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;row&quot;</span>&gt;</span>2<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span> <span style="color:rgb(127, 219, 202); font-weight:400;">colspan</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;2&quot;</span>&gt;</span>Jacob<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span> <span style="color:rgb(127, 219, 202); font-weight:400;">colspan</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;1&quot;</span>&gt;</span>Thornton<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>@fat<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
-<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
+    <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;row&quot;</span>&gt;</span>1<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>Mark<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>Otto<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>@mdo<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
+    <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">th</span> <span style="color:rgb(127, 219, 202); font-weight:400;">scope</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;row&quot;</span>&gt;</span>2<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">th</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span> <span style="color:rgb(127, 219, 202); font-weight:400;">colspan</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;2&quot;</span>&gt;</span>Jacob<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span> <span style="color:rgb(127, 219, 202); font-weight:400;">colspan</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;1&quot;</span>&gt;</span>Thornton<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
+        <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>@fat<span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">td</span>&gt;</span>
+    <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">tr</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">tbody</span>&gt;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">table</span>&gt;</span></code></pre>
-    </div>
-    <div
-        class="col-12 col-lg-6 light-hilight"
-        style="font-size: 16px"
-    >
-    <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td colspan="2">Jacob</td>
-            <td colspan="1">Thornton</td>
-            <td>@fat</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-</div>
-<div class="row mb-4" style="border-radius: 10px">
-    <div class="hilight-code col-12 col-lg-6">
-        <pre>
-            <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">
+                            </div>
+                            <div
+                                class="col-12 col-lg-6 light-hilight"
+                                style="font-size: 16px"
+                            >
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td colspan="2">Jacob</td>
+                                    <td colspan="1">Thornton</td>
+                                    <td>@fat</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                        </div>
+
+                        <div class="row mb-4" style="border-radius: 10px">
+                        <div class="hilight-code col-12 col-lg-6">
+                            <pre>
+                                <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">
 &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">span</span>&gt;text <span style="color:rgb(255, 99, 99); font-weight:400;">span</span> <span style="color:rgb(247, 140, 108); font-weight:400;">1</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">span</span>&gt; &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">span</span>&gt;text <span style="color:rgb(255, 99, 99); font-weight:400;">span</span> <span style="color:rgb(247, 140, 108); font-weight:400;">2</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">span</span>&gt;
 &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">p</span>&gt;text <span style="color:rgb(255, 99, 99); font-weight:400;">p</span> <span style="color:rgb(247, 140, 108); font-weight:400;">1</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">p</span>&gt; &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">p</span>&gt;text <span style="color:rgb(255, 99, 99); font-weight:400;">p</span> <span style="color:rgb(247, 140, 108); font-weight:400;">2</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">p</span>&gt;</code></pre>
-    </div>
-    <div class="col-12 col-lg-6 light-hilight">
-        <span>text span 1</span>
-        <span>text span 2</span>
-        <p>text p 1</p>
-        <p>text p 2</p>
-    </div>
-</div>
-<div class="row mb-4" style="border-radius: 10px">
-    <div class="hilight-code col-12 col-lg-6">
-        <pre>
-            <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">
+                        </div>
+                        <div class="col-12 col-lg-6 light-hilight">
+                            <span>text span 1</span>
+                            <span>text span 2</span>
+                            <p>text p 1</p>
+                            <p>text p 2</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4" style="border-radius: 10px">
+                    <div class="hilight-code col-12 col-lg-6">
+                        <pre>
+                            <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">
 &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">div</span>&gt;
 &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">div</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Block the div 1</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">div</span>&gt;
 &lt;<span style="color:rgb(173, 219, 103); font-weight:400;">hr</span> /&gt;
 &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">div</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Block the div 2</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">div</span>&gt;
 &lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">div</span>&gt;</code></pre>
-    </div>
-    <div class="col-12 col-lg-6 light-hilight">
-        <div>
-            <div>Block the div 1</div>
-            <hr />
-            <div>Block the div 2</div>
-        </div>
-    </div>
-</div>
-<div class="row mb-4" style="border-radius: 10px">
-    <div class="hilight-code col-12 col-lg-6">
-        <pre>
+                    </div>
+                    <div class="col-12 col-lg-6 light-hilight">
+                        <div>
+                            <div>Block the div 1</div>
+                            <hr />
+                            <div>Block the div 2</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4" style="border-radius: 10px">
+                <div class="hilight-code col-12 col-lg-6">
+                    <pre>
 <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">iframe</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">src</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5436.558266166924!2d105.80514108064148!3d20.98302705185573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad3c4fbc9f81%3A0x86771cef039ba86f!2sNodemy!5e0!3m2!1svi!2s!4v1688014858449!5m2!1svi!2s&quot;</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">width</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;100%&quot;</span>
@@ -201,48 +205,52 @@ function HTMLChapter() {
 <span style="color:rgb(127, 219, 202); font-weight:400;">referrerpolicy</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;no-referrer-when-downgrade&quot;</span>
 &gt;</span><span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">iframe</span>&gt;</span>
 </code></pre>
-    </div>
-    <div class="col-12 col-lg-6 light-hilight">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5436.558266166924!2d105.80514108064148!3d20.98302705185573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad3c4fbc9f81%3A0x86771cef039ba86f!2sNodemy!5e0!3m2!1svi!2s!4v1688014858449!5m2!1svi!2s"
-            width="100%"
-            height="200"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-    </div>
-</div>
-<div class="row mb-4" style="border-radius: 10px">
-    <div class="hilight-code col-12 col-lg-6">
-        <pre>
+                </div>
+                <div class="col-12 col-lg-6 light-hilight">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5436.558266166924!2d105.80514108064148!3d20.98302705185573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad3c4fbc9f81%3A0x86771cef039ba86f!2sNodemy!5e0!3m2!1svi!2s!4v1688014858449!5m2!1svi!2s"
+                        width="100%"
+                        height="200"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </div>
+
+
+            <div class="row mb-4" style="border-radius: 10px">
+            <div class="hilight-code col-12 col-lg-6">
+                <pre>
 <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(127, 219, 202); font-weight:400;">&lt;<span style="color:rgb(127, 219, 202); font-weight:400;">video</span>
 <span style="color:rgb(127, 219, 202); font-weight:400;">src</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;https://storage.googleapis.com/web-dev-assets/video-and-source-tags/chrome.mp4&quot;</span>
 &gt;</span><span style="color:rgb(127, 219, 202); font-weight:400;">&lt;/<span style="color:rgb(127, 219, 202); font-weight:400;">video</span>&gt;</span>
 </code></pre>
-    </div>
-    <div class="col-12 col-lg-6 light-hilight">
-        <video
-            controls
-            src="https://storage.googleapis.com/web-dev-assets/video-and-source-tags/chrome.mp4"
-        ></video>
-    </div>
-</div>
-<div class="row mb-4" style="border-radius: 10px">
-    <div class="hilight-code col-12 col-lg-6">
-        <pre>
-            <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(127, 219, 202); font-weight:400;">
+            </div>
+            <div class="col-12 col-lg-6 light-hilight">
+                <video
+                    controls
+                    src="https://storage.googleapis.com/web-dev-assets/video-and-source-tags/chrome.mp4"
+                ></video>
+            </div>
+        </div>
+
+        <div class="row mb-4" style="border-radius: 10px">
+        <div class="hilight-code col-12 col-lg-6">
+            <pre>
+                <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(127, 219, 202); font-weight:400;">
 &lt;<span style="color:rgb(127, 219, 202); font-weight:400;">img</span> <span style="color:rgb(127, 219, 202); font-weight:400;">src</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;https://static-images.vnncdn.net/files/publish/2022/9/3/bien-vo-cuc-thai-binh-346.jpeg&quot;</span> <span style="color:rgb(127, 219, 202); font-weight:400;">alt</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;hinh anh&quot;</span>&gt;</span></code></pre>
+        </div>
+        <div class="col-12 col-lg-6 light-hilight">
+            <img
+                src="https://static-images.vnncdn.net/files/publish/2022/9/3/bien-vo-cuc-thai-binh-346.jpeg"
+                alt="hinh anh"
+            />
+        </div>
     </div>
-    <div class="col-12 col-lg-6 light-hilight">
-        <img
-            src="https://static-images.vnncdn.net/files/publish/2022/9/3/bien-vo-cuc-thai-binh-346.jpeg"
-            alt="hinh anh"
-        />
-    </div>
-</div>
-<div class="row mb-4" style="border-radius: 10px">
+
+    <div class="row mb-4" style="border-radius: 10px">
     <div class="hilight-code col-12 col-lg-6">
         <pre>
             <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;padding-bottom: 24px;">
@@ -264,48 +272,74 @@ function HTMLChapter() {
         </ul>
     </div>
 </div>
+
+
 <div class="row mb-4" style="border-radius: 10px">
-    <div class="hilight-code col-12 col-lg-6">
-        <pre>
-            <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;padding-bottom: 24px;">
+                                <div class="hilight-code col-12 col-lg-6">
+                                    <pre>
+                                        <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;padding-bottom: 24px;">
 &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">ol</span>&gt;
-&lt;<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Toan</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;
-&lt;<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Hoa</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;
-&lt;<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Li</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;
-&lt;<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Anh</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;
-&lt;<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Yeu</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;
+    &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Toan</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;
+    &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Hoa</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;
+    &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Li</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;
+    &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Anh</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;
+    &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;<span style="color:rgb(247, 140, 108); font-weight:400;">Yeu</span>&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">li</span>&gt;
 &lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">ol</span>&gt;</code></pre>
-    </div>
-    <div class="col-12 col-lg-6 light-hilight">
-        <ol>
-            <li>Toan</li>
-            <li>Hoa</li>
-            <li>Li</li>
-            <li>Anh</li>
-            <li>Yeu</li>
-        </ol>
-    </div>
-</div>
-<div class="row mb-4" style="border-radius: 10px">
-    <div class="hilight-code col-12 col-lg-6">
-        <pre>
-            <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(127, 219, 202); font-weight:400;">
+                                </div>
+                                <div class="col-12 col-lg-6 light-hilight">
+                                    <ol>
+                                        <li>Toan</li>
+                                        <li>Hoa</li>
+                                        <li>Li</li>
+                                        <li>Anh</li>
+                                        <li>Yeu</li>
+                                    </ol>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4" style="border-radius: 10px">
+                            <div class="hilight-code col-12 col-lg-6">
+                                <pre>
+                                    <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(127, 219, 202); font-weight:400;">
 &lt;<span style="color:rgb(255, 99, 99); font-weight:400;">u</span>&gt;</span>Chữ gạch chân<span style="color:rgb(255, 99, 99); font-weight:400;">&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">u</span>&gt;</span>
 <span style="color:rgb(255, 99, 99); font-weight:400;">&lt;<span style="color:rgb(255, 99, 99); font-weight:400;">i</span>&gt;</span>Chữ nghiêng<span style="color:rgb(255, 99, 99); font-weight:400;">&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">i</span>&gt;</span>
 <span style="color:rgb(255, 99, 99); font-weight:400;">&lt;<span style="color:rgb(255, 99, 99); font-weight:400;">b</span>&gt;</span>Chữ in đậm<span style="color:rgb(255, 99, 99); font-weight:400;">&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">b</span>&gt;</span>
 <span style="color:rgb(255, 99, 99); font-weight:400;">&lt;<span style="color:rgb(255, 99, 99); font-weight:400;">a <span style="color:rgb(173, 219, 103); font-weight:400;">href</span>=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;https://nodemy.vn/&quot;</span></span>&gt;</span>Nodemy<span style="color:rgb(255, 99, 99); font-weight:400;">&lt;/<span style="color:rgb(255, 99, 99); font-weight:400;">a</span>&gt;</span>
-           </code></pre>
-    </div>
-    <div class="col-12 col-lg-6 light-hilight">
-        <u>Chữ gạch chân</u>
-        <br />
-        <i>Chữ nghiêng</i>
-        <br />
-        <b>Chữ in đậm</b>
-        <br />
-        <a href="https://nodemy.vn/">Nodemy</a>
-    </div>
-</div>
+                                   </code></pre>
+                            </div>
+                            <div class="col-12 col-lg-6 light-hilight">
+                                <u>Chữ gạch chân</u>
+                                <br />
+                                <i>Chữ nghiêng</i>
+                                <br />
+                                <b>Chữ in đậm</b>
+                                <br />
+                                <a href="https://nodemy.vn/">Nodemy</a>
+                            </div>
+                        </div>
+
+                        <div class="row mb-4" style="border-radius: 10px">
+                        <div class="hilight-code col-12 col-lg-6">
+                            <pre>
+<code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">&lt;<span style="color:rgb(199, 146, 234); font-weight:400;">select</span> name=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;&quot;</span> id=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;&quot;</span>&gt;
+&lt;<span style="color:rgb(199, 146, 234); font-weight:400;">option</span> value=<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;---chọn lựa chọn của bạn---&quot;</span>&gt;---chọn lựa chọn của bạn---&lt;/<span style="color:rgb(199, 146, 234); font-weight:400;">option</span>&gt;
+&lt;<span style="color:rgb(199, 146, 234); font-weight:400;">option</span> value<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;Lựa chọn số 1&quot;</span>&gt;Lựa chọn số <span style="color:rgb(247, 140, 108); font-weight:400;">1</span>&lt;/<span style="color:rgb(199, 146, 234); font-weight:400;">option</span>&gt;
+&lt;<span style="color:rgb(199, 146, 234); font-weight:400;">option</span> value<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;Lựa chọn số 2&quot;</span>&gt;Lựa chọn số <span style="color:rgb(247, 140, 108); font-weight:400;">2</span>&lt;/<span style="color:rgb(199, 146, 234); font-weight:400;">option</span>&gt;
+&lt;<span style="color:rgb(199, 146, 234); font-weight:400;">option</span> value<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;Lựa chọn số 3&quot;</span>&gt;Lựa chọn số <span style="color:rgb(247, 140, 108); font-weight:400;">3</span>&lt;/<span style="color:rgb(199, 146, 234); font-weight:400;">option</span>&gt;
+&lt;<span style="color:rgb(199, 146, 234); font-weight:400;">option</span> value<span style="color:rgb(236, 196, 141); font-weight:400;">&quot;Lựa chọn số 4&quot;</span>&gt;Lựa chọn số <span style="color:rgb(247, 140, 108); font-weight:400;">4</span>&lt;/<span style="color:rgb(199, 146, 234); font-weight:400;">option</span>&gt;
+&lt;/<span style="color:rgb(199, 146, 234); font-weight:400;">select</span>&gt;</code></pre>
+                        </div>
+                        <div class="col-12 col-lg-6 light-hilight">
+                            <select name="" id="" class="form-control">
+                                <option value="---chọn lựa chọn của bạn---">---chọn lựa chọn của bạn---</option>
+                                <option value"Lựa chọn số 1">Lựa chọn số 1</option>
+                                <option value"Lựa chọn số 2">Lựa chọn số 2</option>
+                                <option value"Lựa chọn số 3">Lựa chọn số 3</option>
+                                <option value"Lựa chọn số 4">Lựa chọn số 4</option>
+                            </select>
+                        </div>
+                    </div>
+    
  `
 }
 
