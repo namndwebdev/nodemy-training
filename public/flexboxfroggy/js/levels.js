@@ -49,7 +49,7 @@ var levels = [
       'mn': '<p>Бяцхан мэлхий болон түүний найзуудад CSS код бичиж тусалдаг Flexbox Froggy тоглоомонд та тавтай морил! <code>justify-content</code> гэх items-г хэвтээ тэнхлэгийн дагуу байрлуулах пропертийг ашиглан энэ мэлхийг баруун талд байгаа сараана цэцэг рүү хөтөлнө үү, дараах утгуудыг хүлээн авна:</p><ul><li><code>flex-start</code>: items-г контейнерын зүүн талд байрлуулна.</li><li><code>flex-end</code>: items-г контейнерын баруун талд байрлуулна.</li><li><code>center</code>: items-г контейнерын төвд байрлуулна.</li><li><code>space-between</code>: items-г хоорондоо нь ижил зайтай байхаар байрлуулна.</li><li><code>space-around</code>: items-г эргэн тойрон нь ижил зайтай байхаар байрлуулна.</li></ul><p>Жишээлбэл, <code>justify-content: flex-end;</code> нь мэлхийг баруун тийш шилжүүлэх болно. <img src="https://code.org/api/hour/begin_flexbox_froggy.png"></p>'
     },
     board: 'g',
-    style: {'justify-content': 'flex-end'},
+    style: { 'justify-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -103,7 +103,7 @@ var levels = [
       'mn': '<p>Эдгээр мэлхийнүүдийг сараана цэцэг рүүгээ очиход нь туслахын тулд <code>justify-content</code>-г дахин ашиглаарай. Энэ CSS проперти нь items-г хэвтээ тэнхлэгийн дагуу байрлуулах ба дараах утгуудыг хүлээн зөвшөөрдөг гэдгийг санаарай:</p></p><ul><li><code>flex-start</code>: items-г контейнерын зүүн талд байрлуулна.</li><li><code>flex-end</code>: items-г контейнерын баруун талд байрлуулна.</li><li><code>center</code>: items-г контейнерын төвд байрлуулна.</li><li><code>space-between</code>: items-г хоорондоо нь ижил зайтай байхаар байрлуулна.</li><li><code>space-around</code>: items-г эргэн тойрон нь ижил зайтай байхаар байрлуулна.</li></ul>'
     },
     board: 'gy',
-    style: {'justify-content': 'center'},
+    style: { 'justify-content': 'center' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -138,7 +138,7 @@ var levels = [
       'hi': '<p>तीनों मेंढकों को <code>justify-content</code> की मदद से उनके लिली के पत्तों तक पहुंचाइए। इस समय लिली के पत्तों के चारों ओर काफी जगह मोजूद है।</p><p>अगर आप किसी प्रॉपर्टी का महत्व भूल रहें हैं तो आप उस प्रॉपर्टी के उपर होवर करते हुए उसका महत्व जान सकते हैं।<code>justify-content</code> के उपर होवर करने की कोशिश कीजिये।</p>',
       'sr': '<p>Помози да све три жабице нађу своје локвање користећи само <code>justify-content</code>. Овог пута локвањи имају много простора око себе.</p><p>Ако си заборавио/ла могуће вредности за својство, можеш прећи курсором преко назива својства да би их видео. Пробај да пређеш курсором преко <code>justify-content</code>.</p>',
       'bs': '<p>Pomozi da sve tri žabice nađu svoje listove koristeći samo <code>justify-content</code>. Ovog puta listovi imaju mnogo prostora oko sebe.</p><p>Ako si zaboravio/la moguće vrijednosti za svojstvo, možeš preći kursorom preko naziva svojstva da bi ih video. Probaj da pređeš kursorom preko <code>justify-content</code>.</p>',
-      'hr': '<p>Pomozi da sve tri žabice nađu svoje listove koristeći samo <code>justify-content</code>. Ovog puta listovi imaju mnogo prostora oko sebe.</p><p>Ako si zaboravio/la moguće vrijednosti za svojstvo, možeš prijeći kursorom preko naziva svojstva da bi ih vidio. Probaj prijeći kursorom preko <code>justify-content</code>.</p>',    
+      'hr': '<p>Pomozi da sve tri žabice nađu svoje listove koristeći samo <code>justify-content</code>. Ovog puta listovi imaju mnogo prostora oko sebe.</p><p>Ako si zaboravio/la moguće vrijednosti za svojstvo, možeš prijeći kursorom preko naziva svojstva da bi ih vidio. Probaj prijeći kursorom preko <code>justify-content</code>.</p>',
       'nl': '<p>Help alle drie kikkers naar hun lelieblaadjes door gebruik te maken van <code>justify-content</code>. Deze keer is er veel plaats rond de lelieblaadjes.</p><p>Indien je de mogelijke waarden vergeten bent kun je altijd je cursor over de naam van de eigenschap houden. Probeer je cursor over <code>justify-content</code> te houden.</p>',
       'ta': '<p><code>justify-content</code> பயன்படுத்தி, தவளை அதற்கான இலையினை அடைய உதவவும். இந்த முறை இலையினை சுற்றி நிறைய வெற்றிடம் இருக்கின்றது.</p><p>நீங்கள் ஒரு வேளை சாத்தியமான மதிப்புகளை மறந்து இருந்தால், பண்பின் பெயர் மீது hover செய்தால் அதன் மதிப்புகளை பார்க்கலாம். இப்போது <code>justify-content</code> மீது hover செய்து முயற்சிக்கவும்.</p>',
       'te': '<p>మూడు కప్పల కోసం<code>justify-content</code>ను ఉపయోగించడం ద్వారా వారి లిల్లీప్యాడ్లను కనుగొనడంలో సహాయపడండి. ఈ సమయంలో, లిల్లీప్యాడ్‌లు వాటి చుట్టూ చాలా స్థలాన్ని కలిగి ఉన్నాయి. </p><p> దీనికి సాధ్యమయ్యే విలువలను మీరు మరచిపోతున్నట్లు అనిపిస్తే, మీరు వాటిని చూడటానికి అంశాల పేరు మీద హోవర్ చేయవచ్చు. ఒక సారి మౌస్ పాయింటర్ ని <code>justify-content</code> మీద ఉంచి  ప్రయత్నించండి. </p> ',
@@ -157,7 +157,7 @@ var levels = [
       'mn': '<p>Гурван мэлхийд зөвхөн <code>justify-content</code> ашиглан сараана цэцэгээ олоход нь туслаарай. Энэ удаад сараана цэцэгсийн эргэн тойронд их зайтай байна.</p><p>Хэрэв ямар нэг пропертигийн авч болох утгыг санахгүй байвал тухайн пропертигийн нэр дээр дарж үзэх боломжтой. <code>justify-content</code> Дарж үзнэ үү.</p>'
     },
     board: 'gyr',
-    style: {'justify-content': 'space-around'},
+    style: { 'justify-content': 'space-around' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -211,7 +211,7 @@ var levels = [
       'mn': '<p>Захад байсан сараана цэцэгc одоо эрэг рүү урсаж, хоорондын зайгаа ихэсгэсэн байна. <code>justify-content</code>-г ашиглана уу. Энэ удаад сараана цэцэгсийн хоорондох зай тэнцүү байна.</p>'
     },
     board: 'gyr',
-    style: {'justify-content': 'space-between'},
+    style: { 'justify-content': 'space-between' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -246,7 +246,7 @@ var levels = [
       'hi': '<p>अब <code>align-items</code> की मदद से मेंढकों को तालाब की तलहटी तक पहुंचाइये। यह CSS प्रॉपर्टी वस्तुओं को लम्बाई में संरेखित करती है एवं निम्न मूल्यों का उपयोग करती है:</p><ul><li><code>flex-start</code>: यह वस्तुओं को कंटेनर के उपर संरेखित करता है।</li><li><code>flex-end</code>: यह वस्तुओं को कंटेनर के अंत में संरेखित करता है।</li><li><code>center</code>: यह वस्तुओं को कंटेनर की खड़ी केंद्र में संरेखित करता है।</li><li><code>baseline</code>: यह वस्तुओं को कंटेनर की आधार रेखा पर प्रदर्शित करता है।</li><li><code>stretch</code>: यह वस्तुओं को कंटेनर में फिट करने के लिए फैला देता है।</li></ul>',
       'sr': '<p>Сада користи <code>align-items</code> да помогнеш жабицама да дођу до дна барице. Ово CSS својство поравњава елементе вертикално и прихвата следеће вредности:</p><ul><li><code>flex-start</code>: Поравњава елементе у горњи део контејнера.</li><li><code>flex-end</code>: Поравњава елементе у доњи део контејнера.</li><li><code>center</code>: Поравњава елементе у вертикални центар контејнера.</li><li><code>baseline</code>: Елементи су приказани у линији са baseline (линијом текста) контејнера.</li><li><code>stretch</code>: Елементи су развучени да попуне контејнер.</li></ul>',
       'bs': '<p>Sada koristi <code>align-items</code> da pomogneš žabicama da dođu do dna barice. Ovo CSS svojstvo poravnava elemente vertikalno i prihvata sledeće vrijednosti:</p><ul><li><code>flex-start</code>: Poravnava elemente u gornji deo kontejnera.</li><li><code>flex-end</code>: Poravnava elemente u donji deo kontejnera.</li><li><code>center</code>: Poravnava elemente u vertikalni centar kontejnera.</li><li><code>baseline</code>: Elementi su prikazani u liniji sa baseline (linijom teksta) kontejnera.</li><li><code>stretch</code>: Elementi su razvučeni da popune kontejner.</li></ul>',
-      'hr': '<p>Sada koristi <code>align-items</code> da pomogneš žabicama da dođu do dna barice. Ovo CSS svojstvo poravnava elemente vertikalno i prihvaća sljedeće vrijednosti:</p><ul><li><code>flex-start</code>: Poravnava elemente u gornji dio kontejnera.</li><li><code>flex-end</code>: Poravnava elemente u donji dio kontejnera.</li><li><code>center</code>: Poravnava elemente u vertikalni centar kontejnera.</li><li><code>baseline</code>: Elementi su prikazani u liniji sa baseline (linijom teksta) kontejnera.</li><li><code>stretch</code>: Elementi su razvučeni da popune kontejner.</li></ul>',     
+      'hr': '<p>Sada koristi <code>align-items</code> da pomogneš žabicama da dođu do dna barice. Ovo CSS svojstvo poravnava elemente vertikalno i prihvaća sljedeće vrijednosti:</p><ul><li><code>flex-start</code>: Poravnava elemente u gornji dio kontejnera.</li><li><code>flex-end</code>: Poravnava elemente u donji dio kontejnera.</li><li><code>center</code>: Poravnava elemente u vertikalni centar kontejnera.</li><li><code>baseline</code>: Elementi su prikazani u liniji sa baseline (linijom teksta) kontejnera.</li><li><code>stretch</code>: Elementi su razvučeni da popune kontejner.</li></ul>',
       'nl': '<p>Maak nu gebruik van <code>align-items</code> om de kikkers naar de onderkant van de vijver te helpen. Deze CSS eigenschap lijnt elementen verticaal uit, en aanvaard de volgende waarden:</p><ul><li><code>flex-start</code>: Elementen worden uitgelijnd naar de bovenkant van de container.</li><li><code>flex-end</code>: Elementen worden uitgelijnd naar de onderkant van de container.</li><li><code>center</code>: Elementen worden uitgelijnd op het verticaal middelpunt van de container.</li><li><code>baseline</code>: Elementen worden uitgelijnd op de basislijn van de container.</li><li><code>stretch</code>: Elementen worden uitgerokken om binnen de container te passen.</li></ul>',
       'ta': '<p>இப்பொழுது <code>align-items</code> உபயோகித்து, தவளைகள் குளத்தின் கீழ் பகுதிக்கு செல்ல உதவி செய்யவும்.  இந்த CSS property செங்குத்தாக பொருட்களை உபகரணங்களை சீரமைக்கும் மற்றும் பின்வரும் மதிப்புகளை ஏற்றுக்கொள்கிறது:</p><ul><li><code>flex-start</code>: Items மேற்புறமாக சீரமைக்கப்படும்.</li><li><code>flex-end</code>: Items கீழ்புறமாக சீரமைக்கப்படும்.</li><li><code>center</code>: Items செங்குத்து மத்தியத்தில்  சீரமைக்கப்படும்.</li><li><code>baseline</code>: Items, baseline பகுதியில் சீரமைக்கப்படும்.</li><li><code>stretch</code>: Items, container-ல் பொருந்தும் வண்ணம் நீட்டி சீரமைக்கப்படும்.</li></ul>',
       'te': '<p>ఇప్పుడు కప్పలు చెరువు దిగువకు రావడానికి <code>align-items</code> ని ఉపయోగించండి. ఈ CSS ఆస్తి అంశాలను నిలువుగా సమలేఖనం చేస్తుంది మరియు ఈ క్రింది విలువలను అంగీకరిస్తుంది: </p><ul><li><code>flex-start</code>: వస్తువులు కంటైనర్ పైభాగానికి సమలేఖనం చేయబడతాయి. </li><li><code>flex-end</code>: వస్తువులు కంటైనర్ దిగువకు సమలేఖనం చేయబడతాయి. </li><li><code>center</code>: వస్తువులు కంటైనర్ యొక్క నిలువు మధ్యలో సమలేఖనం చేయబడతాయి.</li><li><code>baseline</code>: వస్తువులు కంటైనర్ యొక్క బేస్‌లైన్ వద్ద ప్రదర్శించబడతాయి.</li><li><code>stretch</code>: కంటైనర్‌కు సరిపోయేలా, వస్తువులు విస్తరిస్తాయి. </li></ul> ',
@@ -265,7 +265,7 @@ var levels = [
       'mn': '<p>Одоо <code>align-items</code>-г ашиглан мэлхий цөөрмийн ёроолд хүрэхэд нь туслаарай. Энэ CSS проперти нь items-г босоо тэнхлэгийн дагуу байрлуулах ба дараах утгуудыг хүлээн зөвшөөрдөг:</p><ul><li><code>flex-start</code>: items-г контейнерын дээд талд байрлуулна.</li><li>< code>flex-end</code>: items-г контейнерын ёроолд  байрлуулна.</li><li><code>center</code>: items-г контейнерын босоо төвд байрлуулна.</li>< li><code>baseline</code>: items-г контейнерын суурь дээр харуулна.</li><li><code>stretch</code>: items-г контейнерт тааруулж сунгана.</li></ ul>'
     },
     board: 'gyr',
-    style: {'align-items': 'flex-end'},
+    style: { 'align-items': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -319,7 +319,7 @@ var levels = [
       'mn': '<p>Мэлхийг <code>justify-content</code> болон <code>align-items</code>-н хослолыг ашиглан цөөрмийн төв рүү хөтлөөрэй.</p>'
     },
     board: 'g',
-    style: {'justify-content': 'center', 'align-items': 'center'},
+    style: { 'justify-content': 'center', 'align-items': 'center' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -373,7 +373,7 @@ var levels = [
       'mn': '<p>Мэлхийнүүд энэ удаад эргэн тойрондоо хангалттай зайтай сараана цэцэгсийн төлөө дахин цөөрмийг гатлах хэрэгтэй. <code>justify-content</code> болон <code>align-items</code>-н хослолыг ашиглана уу.</p>'
     },
     board: 'gyr',
-    style: {'justify-content': 'space-around', 'align-items': 'flex-end'},
+    style: { 'justify-content': 'space-around', 'align-items': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -407,7 +407,7 @@ var levels = [
       'uk': '<p>Жабенята мають бути в тому ж порядку що і їх листя латаття. Використовуй <code>flex-direction</code> - ця CSS властивість визначає напрямок елементів в контейнері та може набувати наступних значень:</p><ul><li><code>row</code>: елементи розташовані так само, як напрямок тексту.</li><li><code>row-reverse</code>: елементи розташовані протилежно напрямку тексту.</li><li><code>column</code>: елементи розташовані з гори до низу.</li><li><code>column-reverse</code>: елементи розташовані з низу до гори.</li></ul>',
       'hi': '<p><code>flex-direction</code> की मदद से मेंढकों को लिली के पत्तों को समान क्रम में लाइए। यह CSS प्रॉपर्टी कंटेनर के अन्दर किसी वस्तु की दिशा निर्धारित करती है, एवं निम्न मान स्वीकार करती है:</p><ul><li><code>row</code>: वस्तुएं पाठ दिशा के अनुरूप हो जाती है।</li><li><code>row-reverse</code>: वस्तुएं पाठ दिशा के अनुरूप हो जाती हैं।</li><li><code>column</code>: वस्तुएं लम्ब रूप में उपर से नीचे की ओर हो जाती हैं।</li><li><code>column-reverse</code>: वस्तुएं लम्ब रूप में नीचे से उपर की ओर हो जाती हैं।</li></ul>',
       'sr': '<p>Поређај жабице као што је редослед локвања користећи <code>flex-direction</code>. Ово CSS својство одређује смер у коме су елементи распоређени у контејнеру и прихвата следеће вредности:</p><ul><li><code>row</code>: Елементи су распоређени у смеру текста.</li><li><code>row-reverse</code>:  Елементи су распоређени супротно од смера текста.</li><li><code>column</code>: Елементи су распоређени одозго према доле.</li><li><code>column-reverse</code>: Елементи су распоређени одоздо према горе.</li></ul>',
-      'bs': '<p>Poredaj žabice kao što je redoslijed lokvanja koristeći <code>flex-direction</code>. Ovo CSS svojstvo određuje smjer u kojem su elementi raspoređeni u kontejneru i prihvata sljedeće vrijednosti:</p><ul><li><code>row</code>: Elementi su raspoređeni u smjeru teksta.</li><li><code>row-reverse</code>:  Elementi su raspoređeni suprotno od smjera teksta.</li><li><code>column</code>: Elementi su raspoređeni odozgo prema dole.</li><li><code>column-reverse</code>: Elementi su raspoređeni odozdo prema gore.</li></ul>',           
+      'bs': '<p>Poredaj žabice kao što je redoslijed lokvanja koristeći <code>flex-direction</code>. Ovo CSS svojstvo određuje smjer u kojem su elementi raspoređeni u kontejneru i prihvata sljedeće vrijednosti:</p><ul><li><code>row</code>: Elementi su raspoređeni u smjeru teksta.</li><li><code>row-reverse</code>:  Elementi su raspoređeni suprotno od smjera teksta.</li><li><code>column</code>: Elementi su raspoređeni odozgo prema dole.</li><li><code>column-reverse</code>: Elementi su raspoređeni odozdo prema gore.</li></ul>',
       'hr': '<p>Poredaj žabice kao što je redoslijed lopoča koristeći <code>flex-direction</code>. Ovo CSS svojstvo određuje smjer u kojem su elementi raspoređeni u kontejneru i prihvaća sljedeće vrijednosti:</p><ul><li><code>row</code>: Elementi su raspoređeni u smjeru teksta.</li><li><code>row-reverse</code>:  Elementi su raspoređeni suprotno od smjera teksta.</li><li><code>column</code>: Elementi su raspoređeni odozgo prema dolje.</li><li><code>column-reverse</code>: Elementi su raspoređeni odozdo prema gore.</li></ul>',
       'nl': '<p>De kikkers moeten in dezelfde volgorde als hun lelieblaadjes terecht komen, maak hiervoor gebruik van <code>flex-direction</code>. Deze CSS eigenschap bepaald de richting in dewelke de elementen in hun container geplaatst worden, en aanvaard de volgende waarden:</p><ul><li><code>row</code>: Elementen worden geplaatst in dezelfde richting als deze van de tekst.</li><li><code>row-reverse</code>: Elementen worden geplaatst in de tegenovergestelde richting van de tekst.</li><li><code>column</code>: Elementen worden onder elkaar geplaatst.</li><li><code>column-reverse</code>: Elementen worden boven elkaar geplaatst.</li></ul>',
       'ta': '<p><code>flex-direction</code> பயன்படுத்தி தவளைகள் தங்கள் இலைகளை அதே வரிசையில் பெற வேண்டும்.இந்த CSS property எந்த  திசையில் பொருட்கள் வைக்கப்படுகின்றன என வரையறுக்கிறது, மற்றும் பின்வரும் மதிப்புகளை ஏற்றுக்கொள்கிறது:</p><ul><li><code>row</code>: பொருட்கள் (Text)உரை உள்ள அதே திசையில் வைக்கப்படும்.</li><li><code>row-reverse</code>: பொருட்கள் (Text)உரைக்கு எதிர் திசையில் வைக்கப்படும்.</li><li><code>column</code>: பொருட்கள் மேலிருந்து கீழாக வைக்கப்படும்.</li><li><code>column-reverse</code>: பொருட்கள் கீழிருந்து மேலாக வைக்கப்படும்.</li></ul>',
@@ -427,7 +427,7 @@ var levels = [
       'mn': '<p>Мэлхийнүүдийг байгаа дарааллаар нь <code>flex-direction</code>-г ашиглан сараана цэцэгс дээр нь хөтлөөрэй. Энэ CSS проперти нь items-г контейнерт байрлуулах чиглэлийг тодорхойлохдоо дараах утгуудыг хүлээн зөвшөөрнө:</p><ul><li><code>row</code>: items-г текстийн чиглэлтэй адил байрлуулна.</ li><li><code>row-reverse</code>: items-г текстийн чиглэлийн эсрэг чиглэлд байрлуулна.</li><li><code>column</code>: itemcийг дээрээс доош байрлуулна.</ li><li><code>column-reverse</code>: itemcийг доороос дээш байрлуулна.</li></ul>'
     },
     board: 'gyr',
-    style: {'flex-direction': 'row-reverse'},
+    style: { 'flex-direction': 'row-reverse' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -481,7 +481,7 @@ var levels = [
       'mn': '<p><code>flex-direction</code>-г ашиглан мэлхийнүүдэд сараана цэцэгсийн баганийг олоход нь туслаарай. Энэ CSS проперти нь items контейнерт хэрхэн байрлах чиглэлийг тодорхойлохдоо дараах утгуудыг хүлээн авна:</p><ul><li><code>row</code>: items-г текстийн чиглэлтэй адил байрлуулна.</ li><li><code>row-reverse</code>: items-г текстийн чиглэлийн эсрэг чиглэлд байрлуулна.</li><li><code>column</code>: itemcийг дээрээс доош байрлуулна.</ li><li><code>column-reverse</code>: itemcийг доороос дээш байрлуулна.</li></ul>'
     },
     board: 'gyr',
-    style: {'flex-direction': 'column'},
+    style: { 'flex-direction': 'column' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -535,7 +535,7 @@ var levels = [
       'mn': '<p>Мэлхийнүүдийг өөрсөдтэй нь ижил өнгийн сараана цэцэгст хүрэхэд нь туслаарай. Тэгэхийн тулд <code>flex-direction</code> болон <code>justify-content</code> хоёуланг нь ашиглах шаардагатай болно.</p><p>Урвуу байрлалтай мөр эсвэл баганын чиглэлийг тохируулах үед эхлэл ба төгсгөл нь мөн урвуу болно гэдгийг анхаарна уу.</p>'
     },
     board: 'gyr',
-    style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
+    style: { 'flex-direction': 'row-reverse', 'justify-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -589,7 +589,7 @@ var levels = [
       'mn': '<p>Мэлхийнүүдэд <code>flex-direction</code> болон <code>justify-content</code>-г ашиглан сараана цэцэгсээ олоход нь туслаарай.</p><p>flex-direction проперти column байх үед <code>justify-content</code> босоо чиглэлд, <code>align-items</code> хэвтээ чиглэлд өөрчлөгдөнө гэдгийг анхаарна уу.</p>'
     },
     board: 'gyr',
-    style: {'flex-direction': 'column', 'justify-content': 'flex-end'},
+    style: { 'flex-direction': 'column', 'justify-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -643,7 +643,7 @@ var levels = [
       'mn': '<p>Мэлхийнүүдэд <code>flex-direction</code> болон <code>justify-content</code>-г ашиглан сараана цэцгээ олоход нь туслаарай.</p>'
     },
     board: 'gyr',
-    style: {'flex-direction': 'column-reverse', 'justify-content': 'space-between'},
+    style: { 'flex-direction': 'column-reverse', 'justify-content': 'space-between' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -697,7 +697,7 @@ var levels = [
       'mn': '<p>Мэлхийнүүдэд <code>flex-direction</code>, <code>justify-content</code>, <code>align-items</code>-г ашиглан сараана цэцэгээ олоход нь туслаарай.</p>'
     },
     board: 'gyr',
-    style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
+    style: { 'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -752,8 +752,8 @@ var levels = [
     },
     board: 'gyr',
     selector: '> :nth-child(2)',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'order': '2'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'order': '2' },
     before: "#pond {\n  display: flex;\n}\n\n.yellow {\n",
     after: "}"
   },
@@ -808,8 +808,8 @@ var levels = [
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'order': '-1'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'order': '-1' },
     before: "#pond {\n  display: flex;\n}\n\n.red {\n",
     after: "}"
   },
@@ -844,7 +844,7 @@ var levels = [
       'hi': '<p>एक अन्य प्रॉपर्टी <code>align-self</code> जिसे आप प्रत्येक वस्तु पर अलग-अलग लगा सकते हैं। यह प्रॉपर्टी <code>align-items</code> के मान को ही स्वीकार करती है परन्तु किसी विशिष्ट वस्तु के लिए।</p>',
       'sr': '<p>Још једно својство које можеш применити на појединачним елементима је <code>align-self</code>. Ово својство прихвата исте вредности као <code>align-items</code> и примењује их на конкретном елементу.</p>',
       'bs': '<p>Još jedno svojstvo koje možeš primjeniti na pojedinačnim elementima je<code>align-self</code>. Ovo svojstvo prihvata iste vrijednosti kao <code>align-items</code> i primenjuje ih na konkretnom elementu.</p>',
-      'hr': '<p>Još jedno svojstvo koje možeš primijeniti na pojedinačnim elementima je<code>align-self</code>. Ovo svojstvo prihvaća iste vrijednosti kao <code>align-items</code> i primjenjuje ih na konkretnom elementu.</p>',      
+      'hr': '<p>Još jedno svojstvo koje možeš primijeniti na pojedinačnim elementima je<code>align-self</code>. Ovo svojstvo prihvaća iste vrijednosti kao <code>align-items</code> i primjenjuje ih na konkretnom elementu.</p>',
       'nl': '<p>Een andere eigenschap die je kan toepassen op individuele elementen is <code>align-self</code>. Deze eigenschap aanvaard dezelfde waarden als <code>align-items</code> maar wordt gebruikt om de waarde op individueel niveau te overschrijven.</p>',
       'ta': '<p> <code>align-self</code> என்ற மற்றொருproperty பயன்படுத்தி தனிப்பட்ட உருப்படிகளை சீரமைக்கலாம். இந்த property, <code>align-items</code>  மதிப்புகளை அப்படியே ஏற்றுக்கொள்ளும்.</p>',
       'te': '<p>మీరు వ్యక్తిగత వస్తువులకు వర్తించే మరొక ఆస్తి <code>align-self</code>. ఈ ఆస్తి <code>align-items</code> వలె అదే విలువలను మరియు నిర్దిష్ట వస్తువు కోసం దాని విలువను అంగీకరిస్తుంది. </p> ',
@@ -864,7 +864,7 @@ var levels = [
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
-    style: {'align-self': 'flex-end'},
+    style: { 'align-self': 'flex-end' },
     before: "#pond {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
     after: "}"
   },
@@ -919,7 +919,7 @@ var levels = [
     },
     board: 'ygygg',
     selector: '> .yellow',
-    style: {'align-self': 'flex-end', 'order': '2'},
+    style: { 'align-self': 'flex-end', 'order': '2' },
     before: "#pond {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
     after: "}"
   },
@@ -973,7 +973,7 @@ var levels = [
       'mn': '<p>Өө үгүй ээ! Мэлхийнүүд бүгд ганцхан эгнээн дэх сараана цэцэгс дээр шахагдсан байна. Дараах утгуудыг хүлээн авах <code>flex-wrap</code> пропертийг ашиглан тэдгээрийг тараагаарай:</p><ul><li><code>nowrap</code>: Бүх items-г нэг мөрөнд багтаах. </li><li><code>wrap</code>: Зарим items-г нэмэлт мөрүүд рүү илгээх.</li><li><code>wrap-reverse</code>: Зарим items-г урвуу дараалалаар нэмэлт мөрүүд рүү илгээх. </li></ul>'
     },
     board: 'ygggggr',
-    style: {'flex-wrap': 'wrap'},
+    style: { 'flex-wrap': 'wrap' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -1027,7 +1027,7 @@ var levels = [
       'mn': '<p>Энэ мэлхийн армид <code>flex-direction</code> болон <code>flex-wrap</code>-н хослолыг ашиглан эмх цэгцтэй гурван багана үүсгэхэд тусална уу.</p>'
     },
     board: 'gggggrrrrryyyyy',
-    style: {'flex-direction': 'column', 'flex-wrap': 'wrap'},
+    style: { 'flex-direction': 'column', 'flex-wrap': 'wrap' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -1081,7 +1081,7 @@ var levels = [
       'mn': '<p><code>flex-direction</code> болон <code>flex-wrap</code> гэх хоёр проперти маш олон удаа хамтдаа ашиглагддаг тул энэ хоёрийг нэгтгэн товчилсон проперти<code>flex-flow</code> бүтээгдсэн байна. Энэхүү проперти нь нөгөө хоёр пропертийн хоосон зайгаар тусгаарлагдсан хоёр утгыг хүлээн авдаг.</p><p>Жишээ нь, та <code>flex-flow: row wrap</code>-г ашиглан мөрүүдийг тохируулж болно.</p><p>Өмнөх түвшинг давтахын тулд <code>flex-flow</code> ашиглана уу.</p>'
     },
     board: 'gggggrrrrryyyyy',
-    style: {'flex-flow': 'column wrap'},
+    style: { 'flex-flow': 'column wrap' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -1135,8 +1135,8 @@ var levels = [
       'mn': '<p> Мэлхийнүүд цөөрмийн бүх хэсэгт тархсан боловч сараана цэцэгс контейнерийн дээд талд бөөгнөрсөн байна. Та <code>align-content</code>-г ашиглан олон мөрүүд бие биенээсээ ямар зайтай байрлахыг тохируулж болно. Энэ проперти нь дараах утгуудыг авна:</p><ul><li><code>flex-start</code>: Мөрүүдийг контейнерын дээд талд байрлуулах. </li><li><code>flex-end</code>: Мөрүүдийг контейнерын ёроолд байрлуулах.</li><li><code>center</code>: Мөрүүдийг контейнерын босоо төвд байрлуулах. </li><li><code>space-between</code>: Мөрүүдийг хоорондоо ижил зайтай байхаар байрлуулах.</li><li><code>space-around</code>: Мөрүүдийн эргэн тойрон нь ижил зайтай байхаар байрлуулах. </li><li><code>stretch</code>: Контейнерт тохируулан мөрүүдийг сунган байрлуулах.</li></ul><p> Ойлгомжгүй байж магадгүй ч <code>align-content</code> нь мөрүүдийн хоорондын зайг тодорхойлдог. Харин <code>align-items</code> нь бүх items контейнертэйгээ харьцангуй хэрхэн байрлахыг тодорхойлдог. Зөвхөн нэг мөр байвал <code>align-content</code> ямар ч нөлөө үзүүлэхгүй.</p>'
     },
     board: 'ggggggggggggggg',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'align-content': 'flex-start'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'align-content': 'flex-start' },
     before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
@@ -1190,8 +1190,8 @@ var levels = [
       'mn': '<p>Одоо цөөрмийн урсгал нь сараана цэцэгсийг доод талд бөөгнөрүүлсэн байна. Мэлхийнүүдийг тийш чиглүүлэхийн тулд <code>align-content</code>-г ашиглана уу.</p>'
     },
     board: 'ggggggggggggggg',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'align-content': 'flex-end'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'align-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
@@ -1245,8 +1245,8 @@ var levels = [
       'mn': '<p>Мэлхийнүүд үдэшлэг хийсэн ч гэртээ харих цаг нэгэнт болжээ. <code>flex-direction</code> болон <code>align-content</code>-н хослолыг ашиглан мэлхийнүүдийг сараана цэцэг рүү нь хүргэнэ үү.</p>'
     },
     board: 'rgggyrgggyrgggy',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'flex-direction': 'column-reverse', 'align-content': 'center'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'flex-direction': 'column-reverse', 'align-content': 'center' },
     before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
@@ -1300,7 +1300,7 @@ var levels = [
       'mn': '<p>Сүүлчийн удаа өөрийн сурсан CSS пропертинуудыг ашиглан мэлхийнүүдийг гэрт нь аваачина уу:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code><img src="https://code.org/api/hour/finish_flexbox_froggy.png"></li></ul>'
     },
     board: 'rggggyy',
-    style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
+    style: { 'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   }
@@ -1356,7 +1356,7 @@ var levelWin = {
     'mn': '<p>Та яллаа! Flexbox-г сайн эзэмшсэнийхээ ачаар та бүх мэлхийнүүдийг сараана цэцэгтэй болгоход нь тусалж чадлаа. Тэд ямар их баяртай байгааг хараарай!</p><p>Хэрвээ энэ тоглоом таньд хөгжилтэй санагдсан бол <a href="https://codepip.com/games/grid-garden/">Grid Garden</a>-д зочлоорой. CSS layout-н өөр нэг хүчирхэг онцлогын талаар мэдэхийг хүсвэл <a href="https://codepip.com/">Codepip</a>-с бусад кодчилолын тоглоомуудыг олж тоглох боломжтой. Мөн Flexbox Froggy-г найзуудтайгаа хуваалцахаа мартуузай!</p>'
   },
   board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
-  classes: {'#pond, #background': 'wrap'},
+  classes: { '#pond, #background': 'wrap' },
   style: {},
   before: "#pond {\n  display: flex;\n",
   after: "}"

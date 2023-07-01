@@ -213,7 +213,7 @@ h1.intro-website {
     justify-content: flex-start;
     align-items: center;
     list-style: none;
-    gap: 8px;
+    gap: 12px;
     height: 100%;
     font-size: 1.6rem;
     padding: 10px 0;
@@ -239,7 +239,7 @@ h1.intro-website {
     text-align: center;
 }
 
-.ul-header.active li:first-child {
+.ul-header.active li.li-header:first-child {
     color: #ee4d2d;
     font-size: 2.1rem;
     font-weight: 700;
@@ -313,4 +313,41 @@ video {
 
 .conten-body-wrapper {
     overflow: hidden;
+}
+
+.suggest-game{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+}
+
+.suggest-game ul{
+    list-style: none;
+}
+
+.suggest-game ul li {
+    white-space: nowrap;
+    padding: 10px 30px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.4rem;
+}
+
+.suggest-game ul li:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: #ee4d2d;
+}
+
+.suggest-game ul li a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.game-css-training:hover .suggest-game{
+    display: block;
 }

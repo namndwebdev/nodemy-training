@@ -658,3 +658,11 @@ button:not(.disabled):hover {
   line-height: 1;
 }
 
+.lang img{
+  width: 40px;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 5px;
+}
