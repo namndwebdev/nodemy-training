@@ -1,0 +1,383 @@
+<!DOCTYPE html><html lang="en-US" class="no-js no-svg"><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta charset="UTF-8">
+<title>Flexbox Froggy - A game for learning CSS flexbox</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:site_name" content="Codepip">
+<meta property="og:url" content="https://codepip.com/games/flexbox-froggy/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Flexbox Froggy - A game for learning CSS flexbox">
+<meta property="og:description" content="Help Froggy and friends by writing CSS code! In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox, a 
+powerful new module that makes layout a breeze. With it you can control alignment, spacing, and wrapping of elements on the webpage using only one or two lines of code.
+
+Learning Objectives
+Introduce the fundamentals of using CSS flexbox to position elements on a webpage.
+
+Prerequisites
+For beginners of CSS flexbox. Familiarity with the basics of CSS is a plus but not required.">
+<meta property="og:image" content="images/flexbox-froggy_2.png">
+<meta property="fb:app_id" content="916849395036923">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@playcodepip">
+<meta name="twitter:url" content="https://codepip.com/games/flexbox-froggy/">
+<meta name="twitter:title" content="Flexbox Froggy - A game for learning CSS flexbox">
+<meta name="twitter:description" content="Help Froggy and friends by writing CSS code! In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox, a 
+powerful new module that makes layout a breeze. With it you can control alignment, spacing, and wrapping of elements on the webpage using only one or two lines of code.
+
+Learning Objectives
+Introduce the fundamentals of using CSS flexbox to position elements on a webpage.
+
+Prerequisites
+For beginners of CSS flexbox. Familiarity with the basics of CSS is a plus but not required.">
+<meta name="twitter:image" content="https://codepip.com/wp-content/plugins/codepip/images/screenshots/flexbox-froggy.png">
+<link rel="icon" type="shortcut icon" href="favicon_1.ico">
+<title>Flexbox Froggy | Codepip</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//js.stripe.com">
+<link rel="alternate" type="application/rss+xml" title="Codepip » Feed" href="https://codepip.com/feed/">
+<style id="restrict-content-pro-content-upgrade-redirect-style-inline-css" type="text/css">
+.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-25 {
+  width: calc(25% - 0.5rem);
+}
+.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-25 .wp-block-button__link {
+  width: 100%;
+}
+.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-50 {
+  width: calc(50% - 0.5rem);
+}
+.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-50 .wp-block-button__link {
+  width: 100%;
+}
+.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-75 {
+  width: calc(75% - 0.5rem);
+}
+.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-75 .wp-block-button__link {
+  width: 100%;
+}
+.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-100 {
+  margin-right: 0;
+  width: 100%;
+}
+.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-100 .wp-block-button__link {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style-content-upgrade-redirect.css.map*/
+</style>
+<link rel="stylesheet" id="classic-theme-styles-css" href="css/classic-themes.min.css" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('flexbox-froggy.html#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('flexbox-froggy.html#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('flexbox-froggy.html#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('flexbox-froggy.html#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('flexbox-froggy.html#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('flexbox-froggy.html#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('flexbox-froggy.html#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('flexbox-froggy.html#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="bootstrap_css-css" href="css/bootstrap.min.css" type="text/css" media="">
+<link rel="stylesheet" id="font_awesome_css-css" href="css/all.min.css" type="text/css" media="">
+<link rel="stylesheet" id="rcp-form-css-css" href="css/forms.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="codepip_site_css-css" href="css/site.css" type="text/css" media="">
+<script type="text/javascript" src="js/jquery.min_1.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="js/v3.js" id="stripe-js-v3-js"></script>
+<script type="text/javascript" id="rcp-stripe-js-extra">
+/* <![CDATA[ */
+var rcpStripe = {"keys":{"publishable":"pk_live_51EDDxWH5IlYw2qaws81LaH8H9zupci2tDRraeTkhQgXWAh4KCYzjSuboKhK5VjWWhEbak6qFNKpHn1wtcf5ySS6M00kdMbEzss"},"errors":{"api_key_expired":"Payment gateway connection error.","card_declined":"The card has been declined.","email_invalid":"Invalid email address. Please enter a valid email address and try again.","expired_card":"This card has expired. Please try again with a different payment method.","incorrect_address":"The supplied billing address is incorrect. Please check the card's address or try again with a different card.","incorrect_cvc":"The card's security code is incorrect. Please check the security code or try again with a different card.","incorrect_number":"The card number is incorrect. Please check the card number or try again with a different card.","invalid_number":"The card number is incorrect. Please check the card number or try again with a different card.","incorrect_zip":"The card's postal code is incorrect. Please check the postal code or try again with a different card.","postal_code_invalid":"The card's postal code is incorrect. Please check the postal code or try again with a different card.","invalid_cvc":"The card's security code is invalid. Please check the security code or try again with a different card.","invalid_expiry_month":"The card's expiration month is incorrect.","invalid_expiry_year":"The card's expiration year is incorrect.","payment_intent_authentication_failure":"Authentication failure.","payment_intent_incompatible_payment_method":"This payment method is invalid.","payment_intent_payment_attempt_failed":"Payment attempt failed.","setup_intent_authentication_failure":"Setup attempt failed."},"formatting":{"currencyMultiplier":100},"elementsConfig":null};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/stripe.min.js" id="rcp-stripe-js"></script>
+<script type="text/javascript" src="js/register.min.js" id="rcp-stripe-register-js"></script>
+<link rel="https://api.w.org/" href="https://codepip.com/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://codepip.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://codepip.com/wp-includes/wlwmanifest.xml">
+<link rel="canonical" href="https://codepip.com/games/flexbox-froggy/">
+<link rel="shortlink" href="https://codepip.com/?p=29">
+<link rel="alternate" type="application/json+oembed" href="https://codepip.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcodepip.com%2Fgames%2Fflexbox-froggy%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://codepip.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcodepip.com%2Fgames%2Fflexbox-froggy%2F&amp;format=xml">
+
+<script async="" src="js_1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23019901-19', { 'cookie_flags': 'SameSite=None;Secure', 'anonymize_ip': true });
+  </script>
+</head>
+<body class="game-template-default single single-game postid-29 wp-embed-responsive">
+<nav class="navbar navbar-expand-md navbar-dark">
+<div class="container">
+<a class="navbar-brand" href="index_1.html">
+<img src="fonts/logotype.svg" alt="Codepip Logo" width="752" height="153">
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbar">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a class="nav-link" href="games.html">Games</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="pro.html">Plans</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="blog.html">Blog</a>
+</li>
+</ul>
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link login-button" href="login_3.html">Log in</a>
+</li>
+<li class="nav-item">
+<a class="nav-link signup-button" href="register.html">Sign up</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section id="single-game">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<div class="game-card-large" style="background-color: #1d4d5b;">
+<div class="card">
+<div class="card-body">
+<div class="caption">
+<h2 class="card-title">Flexbox Froggy</h2>
+<div class="card-text">
+<div class="tags">
+<div class="topics tag-group"><span class="tag">CSS</span><span class="tag">Flexbox</span></div><span class="tag">Free</span> </div>
+<div class="description"><p>Help Froggy and friends by writing CSS code! In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox, a
+powerful new module that makes layout a breeze. With it you can control alignment, spacing, and wrapping of elements on the webpage using only one or two lines of code.</p>
+<h3>Learning Objectives</h3>
+<p>Introduce the fundamentals of using CSS flexbox to position elements on a webpage.</p>
+<h3>Prerequisites</h3>
+<p>For beginners of CSS flexbox. Familiarity with the basics of CSS is a plus but not required.</p></div>
+</div>
+</div>
+</div>
+<div class="card-footer">
+<a href="#" class="btn btn-clear float-left" data-toggle="modal" data-target="#modal-share"><i class="fas fa-share mr-1"></i> Share</a>
+<a href="register.html" class="btn btn-primary float-right" onclick="gtag('event', 'register', {'event_category': 'game', 'event_label': 'Flexbox Froggy'});">Register</a>
+<a href="login_3.html" class="btn btn-clear float-right mr-2">Login</a>
+</div>
+</div>
+<div class="card card-img">
+<div class="bg blur" style="background-image: url('images/flexbox-froggy_2.png'); backdrop-filter: blur(10px);"></div>
+<div class="embed-container"><iframe src="8qI9f5R-2Ok.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="modal fade" tabindex="-1" role="dialog" id="modal-share">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">×</span>
+</button>
+<h3 class="modal-title mt-4">Flexbox Froggy</h3>
+<div class="buttons">
+<p><a class="btn btn-twitter" title="Share on Twitter" href="https://twitter.com/intent/tweet?text=Flexbox Froggy, a game for learning CSS flexbox by @playCodepip: https://codepip.com/games/flexbox-froggy/" target="_blank" onclick="gtag('event', 'share', {'event_category': 'game', 'event_label': 'Flexbox Froggy', 'value': 'twitter'});"><i class="fab fa-twitter"></i> Share on Twitter</a></p>
+<p><a class="btn btn-facebook" title="Share on Facebook" href="login.php" target="_blank" onclick="gtag('event', 'share', {'event_category': 'game', 'event_label': 'Flexbox Froggy', 'value': 'facebook'});"><i class="fab fa-facebook"></i> Share on Facebook</a></p>
+<p><a class="btn btn-linkedin" title="Share on LinkedIn" href="login_4.html" target="_blank" onclick="gtag('event', 'share', {'event_category': 'game', 'event_label': 'Flexbox Froggy', 'value': 'linkedin'});"><i class="fab fa-linkedin-in"></i> Share on LinkedIn</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="games">
+<div class="container">
+<h2 class="text-center">More Games</h2>
+<div class="row">
+<div class="col-sm-6 col-md-6 col-lg-4 mb-3 filter-item Pro HTML">
+<a class="card game-card h-100" href="sourcery.html" style="background-color: #1a224d;">
+<img class="card-img-top" src="images/sourcery.png" alt="Sourcery Screenshot" loading="lazy" width="600" height="400">
+<div class="card-body">
+<div class="caption">
+<h3 class="card-title">Sourcery</h3>
+<div class="card-text">
+<div class="tags">
+<div class="topics tag-group"><span class="tag">HTML</span></div><span class="tag">Pro</span> </div>
+<div>A magical game of coding HTML with Emmet</div>
+</div>
+</div>
+</div>
+<div class="card-footer">
+</div>
+</a>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-4 mb-3 filter-item Pro JS">
+<a class="card game-card h-100" href="code-crunchers.html" style="background-color: #311b92;">
+<img class="card-img-top" src="images/code-crunchers_1.png" alt="Code Crunchers Screenshot" loading="lazy" width="600" height="400">
+<div class="card-body">
+<div class="caption">
+<h3 class="card-title">Code Crunchers</h3>
+<div class="card-text">
+<div class="tags">
+<div class="topics tag-group"><span class="tag">JS</span><span class="tag">Math</span></div><span class="tag">Pro</span> </div>
+<div>A game for learning JavaScript math</div>
+</div>
+</div>
+</div>
+<div class="card-footer">
+</div>
+</a>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-4 mb-3 filter-item Pro CSS">
+<a class="card game-card h-100" href="cascade.html" style="background-color: #2a4248;">
+<img class="card-img-top" src="images/cascade.png" alt="Cascade Screenshot" loading="lazy" width="600" height="400">
+<div class="card-body">
+<div class="caption">
+<h3 class="card-title">Cascade</h3>
+<div class="card-text">
+<div class="tags">
+<div class="topics tag-group"><span class="tag">CSS</span></div><span class="tag">Pro</span> </div>
+<div>A stream of rapid-fire CSS microgames</div>
+</div>
+</div>
+</div>
+<div class="card-footer">
+</div>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section id="subscribe">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<h2>Get the latest updates</h2>
+<p>Enter your email to hear about new games and exclusive offers.</p>
+</div>
+<div class="col-lg-6">
+<form action="//codepip.us15.list-manage.com/subscribe/post?u=0849a4ced799c8a7581a28875&amp;id=ff998bf50a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate="">
+<label for="mce-EMAIL" class="d-none">Your email</label>
+<input type="email" value="" name="EMAIL" class="required email form-control mr-sm-2 form-control-lg" id="mce-EMAIL" placeholder="Your email..." aria-label="Your email">
+<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-info btn-lg">
+<div class="mc-field-group input-group d-none">
+<ul>
+<li><input type="checkbox" value="1" name="group[4491][1]" id="mce-group[4491]-4491-0" checked=""><label for="mce-group[4491]-4491-0">Embed</label></li>
+<li><input type="checkbox" value="2" name="group[4491][2]" id="mce-group[4491]-4491-1"><label for="mce-group[4491]-4491-1">Registration</label></li>
+</ul>
+</div>
+<div id="mce-responses" class="clear">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</div> 
+<div style="position: absolute; left: -5000px;" aria-hidden="true">
+<label for="mce-info">Info</label>
+<input type="text" id="mce-info" name="b_dfcc0f0bc22c24ba18b2806dc_d1e5d55c09" tabindex="-1" value="">
+</div>
+</form>
+<div><small>You can unsubscribe at any time.</small></div>
+</div>
+</div>
+</div>
+</section>
+<div class="footer d-print-none">
+<div class="container">
+<div class="row mb-5">
+<div class="col-12">
+<a class="navbar-brand" href="index_1.html">
+<img src="fonts/logotype.svg" alt="Codepip Logo" width="752" height="153">
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-6 col-lg-2 col-md-3">
+<h3>Codepip</h3>
+<div class="footer-link"><a href="about_1.html">About Us</a></div>
+<div><a href="blog.html">Blog</a></div>
+<div class="footer-link"><a href="pro.html">Pricing</a></div>
+<div class="footer-link"><a href="curriculum.html">Curriculum</a></div>
+<div class="footer-link"><a href="press.html">Press</a></div>
+</div>
+<div class="col-6 col-lg-2 col-md-3">
+<h3>Features</h3>
+<div class="footer-link"><a href="games.html">Games</a></div>
+<div class="footer-link"><a href="pro.html">Individual Plans</a></div>
+<div class="footer-link"><a href="pro.html#groups">Group Plans</a></div>
+<div class="footer-link"><a href="classroom.html">Classroom</a></div>
+</div>
+<div class="col-6 col-lg-2 col-md-3">
+<h3>Support</h3>
+<div class="footer-link"><a href="faq.html">FAQ</a></div>
+<div class="footer-link"><a href="contact.html">Contact Us</a></div>
+<div class="footer-link"><a href="privacy.html">Privacy Policy</a></div>
+<div class="footer-link"><a href="terms.html">Terms of Service</a></div>
+</div>
+<div class="col-6 col-lg-2 col-md-3">
+<h3>Follow</h3>
+<div class="footer-link">
+<i class="fab fa-twitter"></i>
+<a target="_blank" rel="noopener" href="https://twitter.com/playcodepip/">Twitter</a>
+</div>
+<div class="footer-link">
+<i class="fab fa-facebook"></i>
+<a target="_blank" rel="noopener" href="codepip_2.html">Facebook</a>
+</div>
+<div class="footer-link">
+<i class="fab fa-instagram"></i>
+<a target="_blank" rel="noopener" href="codepip_3.html">Instagram</a>
+</div>
+<div class="footer-link">
+<i class="fab fa-linkedin"></i>
+<a target="_blank" rel="noopener" href="codepip_1.html">LinkedIn</a>
+</div>
+<div class="footer-link">
+<i class="fab fa-youtube"></i>
+<a target="_blank" rel="noopener" href="codepip.html">YouTube</a>
+</div>
+<div class="footer-link">
+<i class="fa fa-rss"></i>
+<a href="feed">RSS</a>
+</div>
+</div>
+<div class="col-12 col-lg-4 col-md-12">
+<h3><a href="blog.html">Latest</a></h3>
+<div class="footer-link"><a href="intl-delivery-a-game-about-javascripts-internationalization-api-has-landed.html">Intl Delivery, a game about JavaScript’s internationalization API, has landed</a></div>
+<div class="footer-link"><a href="gap-aspect-ratio-replace-all-and-more.html">Gap, aspect ratio, replace all, and more</a></div>
+<div class="footer-link"><a href="reach-your-resources-with-pathfinder-a-game-of-constructing-file-paths.html">Reach your resources with Pathfinder, a game of constructing file paths</a></div>
+<div class="footer-link"><a href="treat-yourself-to-selectors-with-css-scoops.html">Treat yourself to selectors with CSS&nbsp;Scoops</a></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-8">
+<span class="copyright small">© 2023 Codepip. All rights reserved.</span>
+</div>
+</div>
+</div>
+</div>
+<script>
+jQuery(document).ready(function($) {
+var deviceAgent = navigator.userAgent.toLowerCase();
+if (deviceAgent.match(/(iphone|ipod|ipad)/)) {
+$("html").addClass("ios");
+$("html").addClass("mobile");
+}
+if (deviceAgent.match(/(Android)/)) {
+$("html").addClass("android");
+$("html").addClass("mobile");
+}
+if (navigator.userAgent.search("MSIE") >= 0) {
+$("html").addClass("ie");
+}
+else if (navigator.userAgent.search("Chrome") >= 0) {
+$("html").addClass("chrome");
+}
+else if (navigator.userAgent.search("Firefox") >= 0) {
+$("html").addClass("firefox");
+}
+else if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
+$("html").addClass("safari");
+}
+else if (navigator.userAgent.search("Opera") >= 0) {
+$("html").addClass("opera");
+}
+});
+</script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js" id="bootstrap_js-js"></script>
+<script type="text/javascript" src="js/script.min.js" id="codepip_script_js-js"></script>
+
+</body></html>

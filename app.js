@@ -30,6 +30,11 @@ app.get('/JSRobot', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'JSRobot', 'index.html'));
 });
 
+app.get('/cssgridgarden', (req, res) => {
+    // Gửi tệp HTML theo đường dẫn tương đối
+    res.sendFile(path.join(__dirname, 'public', 'cssgridgarden', 'index.html'));
+});
+
 app.get('/flexboxfroggy', (req, res) => {
     // Gửi tệp HTML theo đường dẫn tương đối
     res.sendFile(path.join(__dirname, 'public', 'flexboxfroggy', 'index.html'));

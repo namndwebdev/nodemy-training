@@ -56,7 +56,7 @@ var levels = [
         selector: '#fancy pickle',
         helpTitle: 'Kết hợp Descendant & ID Selectors',
         syntax: '#id&nbsp;&nbsp;A',
-        help: 'You can combine any selector with the descendent selector.',
+        help: 'Bạn có thể kết hợp bất kỳ bộ chọn nào với bộ chọn con cháu.',
         examples: [
             '<strong>#cool&nbsp;span</strong> Lấy ra tất cả thẻ <tag>span</tag> nằm bên trong các thẻ có <strong>id="cool"</strong>',
         ],
@@ -100,7 +100,7 @@ var levels = [
         doThis: 'Lấy ra tất cả các đĩa và hộp cơm bento',
         selector: 'plate,bento',
         selectorName: 'Comma Combinator',
-        helpTitle: 'Combine, selectors, with... commas!',
+        helpTitle: 'Kết hợp, bộ chọn, với... dấu phẩy!',
         syntax: 'A, B',
         help: 'Sử dụng dấu phẩy để ngăn cách selector, có thể chọn ra được nhiều selector cùng lúc.',
         examples: [
@@ -116,7 +116,7 @@ var levels = [
         selectorName: 'Universal Selector',
         helpTitle: 'Bạn có thể lấy ra toàn bộ các thẻ!',
         syntax: '*',
-        help: 'You can select all elements with the universal selector! ',
+        help: 'Bạn có thể chọn tất cả các phần tử bằng bộ chọn chung! ',
         examples: ['<strong>p *</strong> Lấy ra toàn bộ các thẻ trong thẻ <tag>p</tag>.'],
         boardMarkup:
             '\n    <apple/>\n    <plate>\n      <orange class="small" />\n    </plate>\n    <bento/>\n    <bento>\n      <orange/>\n    </bento>\n    <plate id="fancy"/>\n    ',
@@ -137,7 +137,7 @@ var levels = [
     {
         doThis: 'Lấy các quả táo nằm cạnh cái đĩa',
         selector: 'plate + apple',
-        helpTitle: 'Select an element that directly follows another element',
+        helpTitle: 'Chọn một phần tử ngay sau phần tử khác',
         selectorName: 'Adjacent Sibling Selector',
         syntax: 'A + B',
         help: 'Lấy ra thẻ này đứng liền kề sau thẻ kia.',
@@ -165,7 +165,7 @@ var levels = [
         doThis: 'Lấy ra quả táo chỉ đang nằm trên cái đĩa',
         selector: 'plate > apple',
         helpTitle: 'Lấy ra các thẻ con trực tiếp của một thẻ cha',
-        help: 'You can select elements that are direct children of other elements. A child element is any element that is nested directly in another element. <br><br>Elements that are nested deeper than that are called descendant elements.',
+        help: 'Bạn có thể chọn các phần tử là con trực tiếp của các phần tử khác. Phần tử con là bất kỳ phần tử nào được lồng trực tiếp vào phần tử khác.<br /> Các phần tử được lồng sâu hơn được gọi là các phần tử hậu duệ.',
         examples: ['<strong>A > B</strong> Chọn tất cả thẻ <strong>B</strong> nằm bên trong thẻ <strong>A</strong>'],
         boardMarkup:
             '\n    <plate>\n      <bento>\n        <apple/>\n      </bento>\n    </plate>\n    <plate>\n      <apple/>\n    </plate>\n    <plate/>\n    <apple/>\n    <apple class="small"/>\n    ',
@@ -176,7 +176,7 @@ var levels = [
         doThis: 'Lấy ra quả cam nằm trên đỉnh',
         selector: 'plate :first-child',
         syntax: ':first-child',
-        help: 'You can select the first child element. A child element is any element that is directly nested in another element. You can combine this pseudo-selector with other selectors.',
+        help: 'Bạn có thể chọn phần tử con đầu tiên. Phần tử con là bất kỳ phần tử nào được lồng trực tiếp vào phần tử khác. Bạn có thể kết hợp bộ chọn giả này với các bộ chọn khác.',
         examples: [
             '<strong>:first-child</strong> Lấy ra tất cả các thẻ con đầu tiên.',
             '<strong>p:first-child</strong> Lấy ra tất cả các thẻ <tag>p</tag> là thẻ con đầu tiên.',
@@ -191,7 +191,7 @@ var levels = [
         doThis: ' Lấy quả táo và dưa ra khỏi đĩa',
         selector: 'plate :only-child',
         syntax: ':only-child',
-        help: 'You can select any element that is the only element inside of another one.',
+        help: 'Bạn có thể chọn bất kỳ phần tử nào là phần tử duy nhất bên trong một phần tử khác.',
         examples: [
             '<strong>span:only-child</strong> Lấy ra các thẻ <tag>span</tag> là phần tử con duy nhất của các thẻ khác .',
             '<strong>ul li:only-child</strong> Lấy ra thẻ <tag>li</tag> là thẻ con duy nhất nằm trong thẻ <tag>ul</tag>.',
@@ -233,7 +233,7 @@ var levels = [
         doThis: 'Lấy ra hộp cơm bento đầu tiên',
         selector: 'bento:nth-last-child(3)',
         syntax: ':nth-last-child(A)',
-        help: 'Selects the children from the bottom of the parent. This is like nth-child, but counting from the back!',
+        help: 'Chọn những đứa trẻ từ dưới cùng của cha mẹ. Đây giống như đứa trẻ thứ n, nhưng tính từ phía sau!',
         examples: ['<strong>:nth-last-child(2)</strong> Lấy ra các thẻ con thứ 2 tính từ cuối lên.'],
         boardMarkup:
             '\n    <plate/>\n    <bento/>\n    <plate>\n      <orange/>\n      <orange/>\n      <orange/>\n    </plate>\n    <bento/>\n    ',
@@ -244,7 +244,7 @@ var levels = [
         doThis: 'Lấy ra quả táo đầu tiên',
         selector: 'apple:first-of-type',
         syntax: ':first-of-type',
-        help: 'Selects the first element of that type within another element.',
+        help: 'Chọn phần tử đầu tiên của loại đó trong một phần tử khác.',
         examples: ['<strong>span:first-of-type</strong> Lấy ra thẻ <tag>span</tag> xuất hiện đầu tiên.'],
         boardMarkup:
             '\n    <orange class="small"/>\n    <apple/>\n    <apple class="small"/>\n    <apple/>\n    <apple class="small"/>\n    <plate>\n      <orange class="small"/>\n      <orange/>\n    </plate>\n    ',
@@ -280,7 +280,7 @@ var levels = [
         selector: 'apple:only-of-type',
         syntax: ':only-of-type',
         doThis: 'Lấy quả táo ở đĩa nằm giữa',
-        help: 'Selects the only element of its type within another element.',
+        help: 'Chọn phần tử đầu tiên của loại đó trong một phần tử khác.',
         examples: [
             '<strong>p span:only-of-type</strong> Lấy ra thẻ <tag>span</tag> trong thẻ <tag>p</tag> nếu đó là thẻ <tag>span</tag> duy nhất.',
         ],
@@ -293,7 +293,7 @@ var levels = [
         doThis: 'Lấy ra quả táo và quả cam cuối cùng',
         selector: '.small:last-of-type',
         syntax: ':last-of-type',
-        help: 'Selects each last element of that type within another element. Remember type refers the kind of tag, so <tag>p</tag> and <tag>span</tag> are different types. <br><br> I wonder if this is how the last dinosaur was selected before it went extinct.',
+        help: 'Chọn từng phần tử cuối cùng của loại đó trong một phần tử khác. Hãy nhớ loại đề cập đến loại thẻ, vì vậy <tag>p</tag> và <tag>span</tag> là các loại khác nhau. <br><br> Tôi tự hỏi liệu đây có phải là cách con khủng long cuối cùng được chọn trước khi nó tuyệt chủng hay không.',
         examples: [
             '<strong>div:last-of-type</strong> Lấy ra thẻ <tag>div</tag> cuối cùng trong mọi thẻ cha.',
             '<strong>p span:last-of-type</strong> Lấy ra thẻ <tag>span</tag> cuối cùng trong mọi thẻ <tag>p</tag>.',
@@ -307,7 +307,7 @@ var levels = [
         doThis: 'Lấy ra hộp cơm bento rỗng',
         selector: 'bento:empty',
         syntax: ':empty',
-        help: "Selects elements that don't have any other elements inside of them.",
+        help: "Chọn các phần tử không có bất kỳ phần tử nào khác bên trong chúng.",
         examples: ['<strong>div:empty</strong> Lấy ra các thẻ <tag>div</tag> không có thẻ con bên trong nó.'],
         boardMarkup:
             '\n    <bento/>\n    <bento>\n      <pickle class="small"/>\n    </bento>\n    <plate/>\n    <bento/>',
@@ -318,7 +318,7 @@ var levels = [
         doThis: 'Lấy ra các quả táo lớn',
         selector: 'apple:not(.small)',
         syntax: ':not(X)',
-        help: 'You can use this to select all elements that do not match selector <strong>"X"</strong>.',
+        help: 'Bạn có thể sử dụng điều này để chọn tất cả các phần tử không khớp với bộ chọn <strong>"X"</strong>.',
         examples: [
             '<strong>:not(#fancy)</strong> Lấy ra các thẻ không có <strong>id="fancy"</strong>.',
             '<strong>div:not(:first-child)</strong> Lấy ra mỗi thẻ <tag>div</tag> không phải là thẻ con đầu tiên.',
@@ -396,7 +396,7 @@ var levels = [
         syntax: '[attribute*="value"]',
         doThis: " Lấy ra các vật phẩm có tên chủ có chứa từ 'obb'",
         selector: '[for*="obb"]',
-        help: 'A useful selector if you can identify a common pattern in things like <strong>class</strong>, <strong>href</strong> or <strong>src</strong> attributes.',
+        help: 'Một bộ chọn hữu ích nếu bạn có thể xác định một mẫu phổ biến trong những thứ như thuộc tính <strong>class</strong>, <strong>href</strong> hoặc <strong>src</strong>.',
         examples: [
             '<strong>img[src*="/thumbnails/"]</strong> Lấy ra các thể hiển thị hình ảnh từ folder "thumbnail".',
             '<strong>[class*="heading"]</strong>Lấy ra các thẻ, có class chứa chuỗi "heading"',

@@ -346,6 +346,7 @@ video {
 .suggest-game ul li a{
     color: currentColor;
     text-decoration: none;
+    height: 100%;
 }
 
 .game-css-training:hover .suggest-game{
