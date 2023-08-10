@@ -345,6 +345,9 @@ function HTMLChapter() {
 
 function CSSChapter() {
     return `
+    <style>
+        .border-dot{ border: 1px dotted black;}
+    </style>
     <div class="row mb-4" style="border-radius: 10px">
         <div class="hilight-code col-12 col-lg-6">
             <pre>
@@ -415,6 +418,33 @@ function CSSChapter() {
             <h1 style="color: red">Chữ có màu đỏ</h1>
         </div>
     </div>
+    <div class="row mb-4" style="border-radius: 10px">
+    <div class="hilight-code col-12 col-lg-6">
+        <pre>
+<code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">
+<span style="color:rgb(173, 219, 103); font-weight:400;">.your-class</span> {
+<span style="color:rgb(128, 203, 196); font-weight:400;">font-size</span>: 18px;
+}</code></pre>
+    </div>
+    <div class="col-12 col-lg-6 light-hilight">
+    <p class="css-title-chung">
+    font-size
+</p>
+        <div
+            style="
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                height: 100px;
+                background-color: #ccc;
+                width: 100px;
+                font-size: 18px;
+            "
+        >
+            Your Text
+        </div>
+    </div>
+</div>
     <div class="row mb-4" style="border-radius: 10px">
         <div class="hilight-code col-12 col-lg-6">
             <pre>
@@ -816,7 +846,7 @@ function CSSChapter() {
         <p class="css-title-chung">
         margin, padding
     </p>
-            <div style="display: flex">
+            <div style="display: flex;" class="border-dot">
                 <div
                     style="
                         width: 100px;
@@ -879,16 +909,68 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
             </div>
         </div>
     </div>
+
+    <div class="row mb-4" style="border-radius: 10px">
+    <div class="hilight-code col-12 col-lg-6">
+        <pre>
+            <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(99, 119, 119); font-weight:400;">/* Phần tử có vị trí tương đối.  được định vị so với vị trí bình thường của nó. */</span>
+
+<span style="color:rgb(99, 119, 119); font-weight:400;">/* Absolute nó sẽ ăn ra ngoài thằng cha có thuộc tính position ( TH này children sẽ là con của your-classclass) */</span>
+
+<span style="color:rgb(173, 219, 103); font-weight:400;">.your-class</span> {
+<span style="color:rgb(128, 203, 196); font-weight:400;">position</span>: relative;
+}
+
+<span style="color:rgb(173, 219, 103); font-weight:400;">.children</span>{
+<span style="color:rgb(128, 203, 196); font-weight:400;">position</span>: absolute;
+<span style="color:rgb(128, 203, 196); font-weight:400;">right</span>: <span style="color:rgb(247, 140, 108); font-weight:400;">0</span>;
+<span style="color:rgb(128, 203, 196); font-weight:400;">bottom</span>: <span style="color:rgb(247, 140, 108); font-weight:400;">0</span>;
+}</code></pre>
+    </div>
+    <div class="col-12 col-lg-6 light-hilight">
+    <p class="css-title-chung">
+    position: absolute
+</p>
+        <div
+            style="
+                border: 1px dotted #ee4d2d;
+                width: 100%;
+                height: 100%;
+            "
+        >
+            <div
+                style="
+                    position: relative;
+                    width: 100px;
+                    height: 100px;
+                    background-color: #ccc;
+                "
+            >
+                <div
+                    style="
+                        width: 30px;
+                        height: 30px;
+                        background-color: red;
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                    "
+                ></div>
+            </div>
+        </div>
+    </div>
+</div>
+
     <div class="row mb-4" style="border-radius: 10px">
         <div class="hilight-code col-12 col-lg-6">
 <pre>
 <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(255, 99, 99); font-weight:400;">ul</span> <span style="color:rgb(255, 99, 99); font-weight:400;">li</span><span style="color:rgb(199, 146, 234); font-weight:400;">:before</span>{
-    <span style="color:rgb(128, 203, 196); font-weight:400;">content</span>: <span style="color:rgb(236, 196, 141); font-weight:400;">&#x27;♡ 💜&#x27;</span>;
+    <span style="color:rgb(128, 203, 196); font-weight:400;">content</span>: <span style="color:rgb(236, 196, 141); font-weight:400;">&#x27;💜♡&#x27;</span>;
     <span style="color:rgb(128, 203, 196); font-weight:400;">color</span>: red;
 }
 
 <span style="color:rgb(255, 99, 99); font-weight:400;">ul</span> <span style="color:rgb(255, 99, 99); font-weight:400;">li</span><span style="color:rgb(199, 146, 234); font-weight:400;">:after</span>{
-    <span style="color:rgb(128, 203, 196); font-weight:400;">content</span>: <span style="color:rgb(236, 196, 141); font-weight:400;">&#x27;💜♡&#x27;</span>;
+    <span style="color:rgb(128, 203, 196); font-weight:400;">content</span>: <span style="color:rgb(236, 196, 141); font-weight:400;">&#x27;♡💜&#x27;</span>;
     <span style="color:rgb(128, 203, 196); font-weight:400;">color</span>: red;
 }</code></pre>
                     </div>
@@ -1022,7 +1104,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
 <span style="color:rgb(128, 203, 196); font-weight:400;">border</span>: <span style="color:rgb(247, 140, 108); font-weight:400;">4px</span> solid blue;
 }</code></pre>
         </div>
-        <div class="col-12 col-lg-6 light-hilight">
+        <div class="col-12 col-lg-6 light-hilight border-dot">
         <p class="css-title-chung">
         display: inline-block
     </p>
@@ -1065,7 +1147,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
 <span style="color:rgb(128, 203, 196); font-weight:400;">border</span>: <span style="color:rgb(247, 140, 108); font-weight:400;">4px</span> solid blue;
 }</code></pre>
         </div>
-        <div class="col-12 col-lg-6 light-hilight">
+        <div class="col-12 col-lg-6 light-hilight border-dot">
         <p class="css-title-chung">
         display: inline-none;
     </p>
@@ -1111,77 +1193,37 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
         <div class="col-12 col-lg-6 light-hilight">
         <p class="css-title-chung">
         visibility: hidden
-    </p>
-            <div
-                style="
-                    display: inline-block;
-                    width: 100px;
-                    height: 100px;
-                    background-color: #ccc;
-                    border: 4px solid #ee4d2d;
-                "
-            ></div>
-            <div
-                style="
-                    visibility: hidden;
-                    width: 100px;
-                    height: 100px;
-                    background-color: #ccc;
-                    border: 4px solid blue;
-                "
-            ></div>
+    </p>   
+        <div
+            style="
+                border: 1px dotted #ee4d2d;
+                width: 100%;
+                height: 100%;
+            "
+        > 
+        <div
+            style="
+                visibility: hidden;
+                width: 100px;
+                height: 100px;
+                background-color: #ccc;
+                border: 4px solid blue;
+            "
+        ></div>
+        <div
+            style="
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                background-color: #ccc;
+                border: 4px solid #ee4d2d;
+            "
+        ></div>
+        </div>
+          
         </div>
     </div>
-    <div class="row mb-4" style="border-radius: 10px">
-        <div class="hilight-code col-12 col-lg-6">
-            <pre>
-                <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;"><span style="color:rgb(99, 119, 119); font-weight:400;">/* Phần tử có vị trí tương đối.  được định vị so với vị trí bình thường của nó. */</span>
-
-<span style="color:rgb(99, 119, 119); font-weight:400;">/* Absolute nó sẽ ăn ra ngoài thằng cha có thuộc tính position ( TH này children sẽ là con của your-classclass) */</span>
-
-<span style="color:rgb(173, 219, 103); font-weight:400;">.your-class</span> {
-<span style="color:rgb(128, 203, 196); font-weight:400;">position</span>: relative;
-}
-
-<span style="color:rgb(173, 219, 103); font-weight:400;">.children</span>{
-<span style="color:rgb(128, 203, 196); font-weight:400;">position</span>: absolute;
-<span style="color:rgb(128, 203, 196); font-weight:400;">right</span>: <span style="color:rgb(247, 140, 108); font-weight:400;">0</span>;
-<span style="color:rgb(128, 203, 196); font-weight:400;">bottom</span>: <span style="color:rgb(247, 140, 108); font-weight:400;">0</span>;
-}</code></pre>
-        </div>
-        <div class="col-12 col-lg-6 light-hilight">
-        <p class="css-title-chung">
-        position: absolute
-    </p>
-            <div
-                style="
-                    border: 1px dotted #ee4d2d;
-                    width: 100%;
-                    height: 100%;
-                "
-            >
-                <div
-                    style="
-                        position: relative;
-                        width: 100px;
-                        height: 100px;
-                        background-color: #ccc;
-                    "
-                >
-                    <div
-                        style="
-                            width: 30px;
-                            height: 30px;
-                            background-color: red;
-                            position: absolute;
-                            right: 0;
-                            bottom: 0;
-                        "
-                    ></div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="row mb-4" style="border-radius: 10px">
         <div class="hilight-code col-12 col-lg-6">
             <pre>
@@ -1193,7 +1235,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
         </div>
         <div class="col-12 col-lg-6 light-hilight">
         <p class="css-title-chung">
-        position: rotate
+        tranform: rotate
     </p>
             <div
                 style="
@@ -1217,7 +1259,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
         </div>
         <div class="col-12 col-lg-6 light-hilight">
         <p class="css-title-chung">
-        position: hover rotate
+        tranform: hover rotate
     </p>
             <div
                 class="sdsdfsdfdsfsd3267890"
@@ -1249,6 +1291,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
                 style="
                     position: relative;
                     display: flex;
+                    border: 1px dotted #ee4d2d;
                 "
             >
                 <div
@@ -1292,6 +1335,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
                     position: relative;
                     display: flex;
                     justify-content: center;
+                    border: 1px dotted #ee4d2d;
                 "
             >
                 <div
@@ -1336,6 +1380,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
                     position: relative;
                     display: flex;
                     justify-content: space-between;
+                    border: 1px dotted #ee4d2d;
                 "
             >
                 <div
@@ -1379,6 +1424,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
                     position: relative;
                     display: flex;
                     justify-content: space-around;
+                    border: 1px dotted #ee4d2d;
                 "
             >
                 <div
@@ -1424,6 +1470,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
                     display: flex;
                     align-items: center;
                     height: 100%;
+                    border: 1px dotted #ee4d2d;
                 "
             >
                 <div
@@ -1469,6 +1516,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
                     display: flex;
                     align-items: flex-end;
                     height: 100%;
+                    border: 1px dotted #ee4d2d;
                 "
             >
                 <div
@@ -1514,6 +1562,7 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
                     display: flex;
                     align-items: flex-start;
                     height: 100%;
+                    border: 1px dotted #ee4d2d;
                 "
             >
                 <div
@@ -1649,15 +1698,16 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
     <div class="row mb-4" style="border-radius: 10px">
         <div class="hilight-code col-12 col-lg-6">
             <pre>
-<code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">
-<span style="color:rgb(173, 219, 103); font-weight:400;">.your-class:hover</span> {
-<span style="color:rgb(128, 203, 196); font-weight:400;">animation</span>: Rotate linear .<span style="color:rgb(247, 140, 108); font-weight:400;">3s</span> infinite;
-}</code></pre>
+            <code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">
+            <span style="color:rgb(173, 219, 103); font-weight:400;">.your-class:hover</span> {
+            <span style="color:rgb(128, 203, 196); font-weight:400;">animation</span>: Rotate linear .<span style="color:rgb(247, 140, 108); font-weight:400;">3s</span> infinite;
+            }</code>
+            </pre>
         </div>
         <div class="col-12 col-lg-6 light-hilight">
         <p class="css-title-chung">
         hover, animation
-    </p>
+        </p>
             <div
                 class="cusdfghjkl-sdfsdf"
                 style="
@@ -1673,33 +1723,6 @@ position<span style="color:rgb(173, 219, 103); font-weight:400;">:</span> relati
                     }
                 "
             ></div>
-        </div>
-    </div>
-    <div class="row mb-4" style="border-radius: 10px">
-        <div class="hilight-code col-12 col-lg-6">
-            <pre>
-<code id="htmlViewer" style="color:rgb(214, 222, 235); font-weight:400;background-color:rgb(1, 22, 39);background:rgb(1, 22, 39);display:block;padding: .5em;">
-<span style="color:rgb(173, 219, 103); font-weight:400;">.your-class</span> {
-<span style="color:rgb(128, 203, 196); font-weight:400;">font-size</span>: 18px;
-}</code></pre>
-        </div>
-        <div class="col-12 col-lg-6 light-hilight">
-        <p class="css-title-chung">
-        font-size
-    </p>
-            <div
-                style="
-                    position: relative;
-                    display: flex;
-                    align-items: flex-start;
-                    height: 100px;
-                    background-color: #ccc;
-                    width: 100px;
-                    font-size: 18px;
-                "
-            >
-                Your Text
-            </div>
         </div>
     </div>
 `
